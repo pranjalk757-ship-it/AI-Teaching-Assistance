@@ -1,0 +1,343 @@
+{
+    "video_id": "9BIN99rHOCQ",
+    "video_title": "Classification of Computer Networks",
+    "chunks": [
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 0.06,
+            "end": 13.139,
+            "video_title": "Classification of Computer Networks",
+            "text": "hello everyone welcome back to the computer networks course today we will see the classification of computer networks after completing this session we will understand what are LAN"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 10.38,
+            "end": 22.35,
+            "video_title": "Classification of Computer Networks",
+            "text": "man and when and after understanding Lam van and man we will also understand what are the devices that are involved in land man and man and we will also understand what"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 20.43,
+            "end": 34.95,
+            "video_title": "Classification of Computer Networks",
+            "text": "are the new trends in computer network we will see the classification of computer networks computer networks are classified into local area network or simply land metropolitan area network or"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 31.949,
+            "end": 48.17999999999999,
+            "video_title": "Classification of Computer Networks",
+            "text": "simply man wide area network or simply van we will see local area networks first as the name implies local means it is restricted to one limited area that is a small network is said to be a local"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 45.87,
+            "end": 60.03,
+            "video_title": "Classification of Computer Networks",
+            "text": "area network a local area network is a computer network that interconnects computers within a limited area say a small network that is there in our residence or a school lab University"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 57.87,
+            "end": 72.78,
+            "video_title": "Classification of Computer Networks",
+            "text": "campus or office is said to be a local area network let's take an example let there are hundred computers in a network and this is a school network each of these computers are connected to each"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 69.75,
+            "end": 84.659,
+            "video_title": "Classification of Computer Networks",
+            "text": "other with the help of a switch and we can call this computer network as a local area network why because all these computers can communicate with each other internally we can set a plan in"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 81.81,
+            "end": 95.43,
+            "video_title": "Classification of Computer Networks",
+            "text": "two ways one is a wired LAN another on a servile aslam in Wired LAN we have cables so the example technology for a wired LAN is Ethernet we have already seen in the previous lecture that"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 93.06,
+            "end": 106.2,
+            "video_title": "Classification of Computer Networks",
+            "text": "Ethernet is used to connect two or more nodes in this case this node is connected to the switch this computer is connected to the switch with the help of an Ethernet cable to be precise this is"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 104.549,
+            "end": 116.31,
+            "video_title": "Classification of Computer Networks",
+            "text": "an Ethernet straight through cable because Ethernet straight through cable connects devices of different kinds switch and computers are different kinds of devices so we need to use Ethernet"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 114.39,
+            "end": 127.56,
+            "video_title": "Classification of Computer Networks",
+            "text": "straight through cable in case if we want to connect this computer with E this computer directly then we have to go for Ethernet crossover cable whatever it is Ethernet is the well known and the"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 125.13,
+            "end": 138.21,
+            "video_title": "Classification of Computer Networks",
+            "text": "most popular technology in wired LAN and the devices that are used in the wired LAN are hub and switched I will talk about this happen switch in the next lecture elaborately now you just"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 136.32,
+            "end": 150.36,
+            "video_title": "Classification of Computer Networks",
+            "text": "understand hub or switch can be an intermediary device in a local area network and that do in a wired local area network we can also have a local area network Wireless example Wi-Fi now"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 148.23,
+            "end": 164.55,
+            "video_title": "Classification of Computer Networks",
+            "text": "we will see metropolitan area network or simply man a metropolitan area network is a computer network that interconnects uses or computers in a geographic region see there are two branches in a CTE and"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 162.12,
+            "end": 176.06,
+            "video_title": "Classification of Computer Networks",
+            "text": "these two branches are somehow connected with each other so this kind of network is called as a metropolitan area network in other words there are two local area networks these two local area networks"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 173.91,
+            "end": 187.62,
+            "video_title": "Classification of Computer Networks",
+            "text": "are connected to each other in a city the device is involved in this metropolitan area network are switches hubs for establishing a local area network and to connect to local area"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 184.89,
+            "end": 197.88,
+            "video_title": "Classification of Computer Networks",
+            "text": "networks we need routers or bridges as I already mentioned there are minimum two local area network and these two local area networks are to be connected with each other with the help of a router or"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 195.15,
+            "end": 209.10000000000002,
+            "video_title": "Classification of Computer Networks",
+            "text": "a bridge we will see an example now there are four local area networks connected to each other let's say this is a supermarket and this supermarket has four branches computers in one"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 206.97,
+            "end": 220.89000000000001,
+            "video_title": "Classification of Computer Networks",
+            "text": "supermarket will be in one local area network similarly other branches also have separate local area network and these supermarket branches must somehow communicate with each other for example"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 218.67,
+            "end": 231.0,
+            "video_title": "Classification of Computer Networks",
+            "text": "if someone is asking for a product which is not there in this branch the employ of this branch wants to search whether the product is available in other branches this is possible only if all"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 228.959,
+            "end": 242.45899999999997,
+            "video_title": "Classification of Computer Networks",
+            "text": "local area networks of the supermarket are connected and this is what exactly a metropolitan area network please remember this is restricted to only a small geographic region like a city"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 240.3,
+            "end": 253.10999999999999,
+            "video_title": "Classification of Computer Networks",
+            "text": "please note in every length there are some computers and these computers can communicate with other computers in other local area network and this is possible only if these computers are"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 251.04,
+            "end": 267.72999999999996,
+            "video_title": "Classification of Computer Networks",
+            "text": "somehow connected with each other time to see wild area network that is the van a voluntary Anette work is a telecommunications network that extends over a large geographical area it means"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 264.57,
+            "end": 279.13,
+            "video_title": "Classification of Computer Networks",
+            "text": "it is a telecommunications network but it deals with a larger geographical area first we will see what is a telecommunications network any communications at a distance we call it"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 276.67,
+            "end": 292.45,
+            "video_title": "Classification of Computer Networks",
+            "text": "as a telecommunication network so here the communication is going to be within a large geographical area in Man two or more lands within a city can communicate with each other in van two or more lands"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 290.5,
+            "end": 303.79,
+            "video_title": "Classification of Computer Networks",
+            "text": "within a country can communicate with each other and the devices in van are or in devices and intermediary devices because an ending may want to communicate with an end"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 302.2,
+            "end": 316.0,
+            "video_title": "Classification of Computer Networks",
+            "text": "device which is in the other part of the country and some authors will refer this wide area network to be the Internet we will see an example now and there are two local area networks one local area"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 313.66,
+            "end": 327.4,
+            "video_title": "Classification of Computer Networks",
+            "text": "network is in New Delhi and other local area network is in Chennai and these two local area network are in two different places in the country and they are separated by a very large geographical"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 324.73,
+            "end": 339.61,
+            "video_title": "Classification of Computer Networks",
+            "text": "area but still this computer can communicate with this computer and this is possible only with the help of a wide area network wide area network means communication at a large distance if it"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 337.06,
+            "end": 352.15000000000003,
+            "video_title": "Classification of Computer Networks",
+            "text": "is a man this is possible only within a city but this is wide area network hence the communication at the distance is still possible so far we have seen local area network metropolitan area network"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 349.84,
+            "end": 364.33,
+            "video_title": "Classification of Computer Networks",
+            "text": "and wide area network now we will see the Internet I will say this is a wild wide area network that is a wide van why because there are so many local area networks so many metropolitan area"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 362.02,
+            "end": 374.74,
+            "video_title": "Classification of Computer Networks",
+            "text": "networks and so many wide area networks across the world are connected to each other say for example there is a guy in India who wants to send some data to a guy who is in Australia between India"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 372.88,
+            "end": 383.89,
+            "video_title": "Classification of Computer Networks",
+            "text": "and Australia there are many routers involved in taking the data from India to Australia similarly every country in the world is somehow connected with other countries"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 382.45,
+            "end": 392.23,
+            "video_title": "Classification of Computer Networks",
+            "text": "through computer networks we don't know whether two countries have a friendly relationship or not but definitely they will have a computer network relationship and that's the power of"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 389.92,
+            "end": 403.25,
+            "video_title": "Classification of Computer Networks",
+            "text": "computer network guys before we conclude we will see the new trends in computer networks nowadays many employees are encouraged by their employers to bring their own device and"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 400.82,
+            "end": 413.87,
+            "video_title": "Classification of Computer Networks",
+            "text": "to the office Network and we shall call such scenario as a bring-your-own-device scenario it means employees can bring their own device and connect it to their office network and still work with"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 411.86,
+            "end": 423.23,
+            "video_title": "Classification of Computer Networks",
+            "text": "office network coming to the online collaboration once upon a time if a meeting is scheduled everyone has to assemble in the meeting spot now the trend has"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 421.22,
+            "end": 432.74,
+            "video_title": "Classification of Computer Networks",
+            "text": "completely been changed they can participate from wherever they are and they can still do online collaboration with others with the help of computer network"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 429.86,
+            "end": 443.6,
+            "video_title": "Classification of Computer Networks",
+            "text": "say for example a meeting involves participants in New Delhi Chennai America Australia but still no one to be there in a particular or a specific location they can be wherever they are"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 442.13,
+            "end": 454.25,
+            "video_title": "Classification of Computer Networks",
+            "text": "but still they can do online collaboration and cloud computing is the new trend that we would like to address cloud computing means it is the on-demand availability of computer"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 452.69,
+            "end": 465.38,
+            "video_title": "Classification of Computer Networks",
+            "text": "resources first let's take an example let's take Google Drive one can store all files and folders in Google Drive that gives a lot of flexibility if one wants to accesses files from any part of"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 463.04,
+            "end": 475.37,
+            "video_title": "Classification of Computer Networks",
+            "text": "the world he can access by just giving a request to Google Drive and download the data what if he had stored the data in his personal computer he needs to carry the computer wherever he goes if he"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 473.42,
+            "end": 486.29,
+            "video_title": "Classification of Computer Networks",
+            "text": "wants the data with him but cloud computing say this Google Drive offers this on-demand availability cloud computing is the on-demand availability of computer resources especially data"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 484.4,
+            "end": 497.09,
+            "video_title": "Classification of Computer Networks",
+            "text": "storage and this computing we need not directly involve in the management we can just store the data somewhere in a secure manner and get the data whenever we wanted that's the power of cloud"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 494.0,
+            "end": 506.71999999999997,
+            "video_title": "Classification of Computer Networks",
+            "text": "computing that's it guys in the initial part of the session we have listed that we are going to learn certain things now we will ensure whether we have learnt all these things I hope now you have"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 505.07,
+            "end": 516.74,
+            "video_title": "Classification of Computer Networks",
+            "text": "learned what is local area network metropolitan area network and wide area network and we have also seen what are the various devices involved in LAN man and van and there are some new"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 515.39,
+            "end": 527.529,
+            "video_title": "Classification of Computer Networks",
+            "text": "trends that are there in the computer networking field and we have also seen those trends thank you for watching [Applause] [Music]"
+        },
+        {
+            "video_id": "9BIN99rHOCQ",
+            "start": 529.43,
+            "end": 533.559,
+            "video_title": "Classification of Computer Networks",
+            "text": "you [Music]"
+        }
+    ],
+    "text": "hello everyone welcome back to the computer networks course today we will see the classification of computer networks after completing this session we will understand what are LAN man and when and after understanding Lam van and man we will also understand what are the devices that are involved in land man and man and we will also understand what are the new trends in computer network we will see the classification of computer networks computer networks are classified into local area network or simply land metropolitan area network or simply man wide area network or simply van we will see local area networks first as the name implies local means it is restricted to one limited area that is a small network is said to be a local area network a local area network is a computer network that interconnects computers within a limited area say a small network that is there in our residence or a school lab University campus or office is said to be a local area network let's take an example let there are hundred computers in a network and this is a school network each of these computers are connected to each other with the help of a switch and we can call this computer network as a local area network why because all these computers can communicate with each other internally we can set a plan in two ways one is a wired LAN another on a servile aslam in Wired LAN we have cables so the example technology for a wired LAN is Ethernet we have already seen in the previous lecture that Ethernet is used to connect two or more nodes in this case this node is connected to the switch this computer is connected to the switch with the help of an Ethernet cable to be precise this is an Ethernet straight through cable because Ethernet straight through cable connects devices of different kinds switch and computers are different kinds of devices so we need to use Ethernet straight through cable in case if we want to connect this computer with E this computer directly then we have to go for Ethernet crossover cable whatever it is Ethernet is the well known and the most popular technology in wired LAN and the devices that are used in the wired LAN are hub and switched I will talk about this happen switch in the next lecture elaborately now you just understand hub or switch can be an intermediary device in a local area network and that do in a wired local area network we can also have a local area network Wireless example Wi-Fi now we will see metropolitan area network or simply man a metropolitan area network is a computer network that interconnects uses or computers in a geographic region see there are two branches in a CTE and these two branches are somehow connected with each other so this kind of network is called as a metropolitan area network in other words there are two local area networks these two local area networks are connected to each other in a city the device is involved in this metropolitan area network are switches hubs for establishing a local area network and to connect to local area networks we need routers or bridges as I already mentioned there are minimum two local area network and these two local area networks are to be connected with each other with the help of a router or a bridge we will see an example now there are four local area networks connected to each other let's say this is a supermarket and this supermarket has four branches computers in one supermarket will be in one local area network similarly other branches also have separate local area network and these supermarket branches must somehow communicate with each other for example if someone is asking for a product which is not there in this branch the employ of this branch wants to search whether the product is available in other branches this is possible only if all local area networks of the supermarket are connected and this is what exactly a metropolitan area network please remember this is restricted to only a small geographic region like a city please note in every length there are some computers and these computers can communicate with other computers in other local area network and this is possible only if these computers are somehow connected with each other time to see wild area network that is the van a voluntary Anette work is a telecommunications network that extends over a large geographical area it means it is a telecommunications network but it deals with a larger geographical area first we will see what is a telecommunications network any communications at a distance we call it as a telecommunication network so here the communication is going to be within a large geographical area in Man two or more lands within a city can communicate with each other in van two or more lands within a country can communicate with each other and the devices in van are or in devices and intermediary devices because an ending may want to communicate with an end device which is in the other part of the country and some authors will refer this wide area network to be the Internet we will see an example now and there are two local area networks one local area network is in New Delhi and other local area network is in Chennai and these two local area network are in two different places in the country and they are separated by a very large geographical area but still this computer can communicate with this computer and this is possible only with the help of a wide area network wide area network means communication at a large distance if it is a man this is possible only within a city but this is wide area network hence the communication at the distance is still possible so far we have seen local area network metropolitan area network and wide area network now we will see the Internet I will say this is a wild wide area network that is a wide van why because there are so many local area networks so many metropolitan area networks and so many wide area networks across the world are connected to each other say for example there is a guy in India who wants to send some data to a guy who is in Australia between India and Australia there are many routers involved in taking the data from India to Australia similarly every country in the world is somehow connected with other countries through computer networks we don't know whether two countries have a friendly relationship or not but definitely they will have a computer network relationship and that's the power of computer network guys before we conclude we will see the new trends in computer networks nowadays many employees are encouraged by their employers to bring their own device and to the office Network and we shall call such scenario as a bring-your-own-device scenario it means employees can bring their own device and connect it to their office network and still work with office network coming to the online collaboration once upon a time if a meeting is scheduled everyone has to assemble in the meeting spot now the trend has completely been changed they can participate from wherever they are and they can still do online collaboration with others with the help of computer network say for example a meeting involves participants in New Delhi Chennai America Australia but still no one to be there in a particular or a specific location they can be wherever they are but still they can do online collaboration and cloud computing is the new trend that we would like to address cloud computing means it is the on-demand availability of computer resources first let's take an example let's take Google Drive one can store all files and folders in Google Drive that gives a lot of flexibility if one wants to accesses files from any part of the world he can access by just giving a request to Google Drive and download the data what if he had stored the data in his personal computer he needs to carry the computer wherever he goes if he wants the data with him but cloud computing say this Google Drive offers this on-demand availability cloud computing is the on-demand availability of computer resources especially data storage and this computing we need not directly involve in the management we can just store the data somewhere in a secure manner and get the data whenever we wanted that's the power of cloud computing that's it guys in the initial part of the session we have listed that we are going to learn certain things now we will ensure whether we have learnt all these things I hope now you have learned what is local area network metropolitan area network and wide area network and we have also seen what are the various devices involved in LAN man and van and there are some new trends that are there in the computer networking field and we have also seen those trends thank you for watching [Applause] [Music] you [Music] "
+}

@@ -1,0 +1,490 @@
+{
+    "video_id": "uSKdjjw5zow",
+    "video_title": "Network Topology",
+    "chunks": [
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 0.089,
+            "end": 17.73,
+            "video_title": "Network Topology",
+            "text": "today we will see network topology upon the completion of this session we will be able to understand various network topologies like bus star ring mesh and hybrid we will also understand what are"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 14.969,
+            "end": 31.59,
+            "video_title": "Network Topology",
+            "text": "the advantages and disadvantages of bus star ring mesh and hybrid topologies firstly we will start with what is a network topology we have some nodes and we have to arrange these nodes so that"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 29.4,
+            "end": 44.218999999999994,
+            "video_title": "Network Topology",
+            "text": "we can establish communication among all the nodes topology means arrangement of nodes of a computer network say I have to arrange all these nodes so that I can establish communication among all the"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 41.489,
+            "end": 57.57,
+            "video_title": "Network Topology",
+            "text": "nodes topology can be viewed as a layout of a computer network topology can be viewed as a physical topology and logical topology physical topology means where I am going to place all these"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 54.719,
+            "end": 67.56,
+            "video_title": "Network Topology",
+            "text": "nodes this is what physical topology say I can place all these three nodes in ground floor of my building I can also take this two nodes to the first floor of my building and the placement of"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 65.82,
+            "end": 78.99000000000001,
+            "video_title": "Network Topology",
+            "text": "these nodes is called as physical topology logical topology means how the data is going to flow from this node to this node this node may be in ground flow this node may be in first floor how"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 77.1,
+            "end": 91.5,
+            "video_title": "Network Topology",
+            "text": "I am going to deal with the data flow in the network that is viewed as the logical topology simply topology means the arrangement of nodes in such a way that we have to make communication among"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 88.38,
+            "end": 107.88,
+            "video_title": "Network Topology",
+            "text": "all the nodes we will see what are the various topologies bus ring star mesh and hybrid we will see one by one in detail bus topology in bus topology there is a common transmission medium"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 105.27,
+            "end": 121.74,
+            "video_title": "Network Topology",
+            "text": "and all nodes are connected to this transmission medium suppose if node gave wants to send some data to node B and it can send the data over this transmission medium and all nodes will receive this"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 119.28,
+            "end": 132.76,
+            "video_title": "Network Topology",
+            "text": "transmission that is the data now the problem with this approach is if you wants to send some data to be everyone will receive a copy of the data signal including B but all others will deny or"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 131.76,
+            "end": 144.67,
+            "video_title": "Network Topology",
+            "text": "reject this packet why because this data signal is intended to the recipient be and not to anyone else in the network so now we will see what is a bus topology as per the"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 142.03,
+            "end": 156.459,
+            "video_title": "Network Topology",
+            "text": "definition all data transmitted between nodes in the network is transmitted over this common transmission medium this is the common transmission medium and all nodes will receive the signal"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 153.489,
+            "end": 168.459,
+            "video_title": "Network Topology",
+            "text": "simultaneously this transmission medium is capable of sending as well as receiving the data so the data flow in this transmission medium is bi-directional it means data can flow in"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 165.64,
+            "end": 180.84900000000002,
+            "video_title": "Network Topology",
+            "text": "both direction we will see the advantages and disadvantages of bus topology since there is only one wire or the cable involved this transmission it is less expensive at the same time if"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 178.78,
+            "end": 193.54000000000002,
+            "video_title": "Network Topology",
+            "text": "you are going to construct a temporary Network where this is not going to last for a long then you can go for bus topology another advantage of having this network is that if any node failure"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 191.29,
+            "end": 204.81900000000002,
+            "video_title": "Network Topology",
+            "text": "please watch this this is a node failure and this node failure does not affect others and these are all the advantages of bus topology there are some disadvantages with this Network and this"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 202.87,
+            "end": 216.19,
+            "video_title": "Network Topology",
+            "text": "is obviously not a fault tolerant Network we have already seen what is a fault tolerant network fault tolerance means if there is a failure and this failure should not affect others but if"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 213.94,
+            "end": 228.489,
+            "video_title": "Network Topology",
+            "text": "this link this transmission medium is failed obviously the entire network goes down at the same time if this node wants to send some data to this node and there is a problem in this line so"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 225.76,
+            "end": 240.25,
+            "video_title": "Network Topology",
+            "text": "communication here can take place but the communication between this place will not happen why because this is not dealing with any alternative technique the only way for this computer to reach"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 237.669,
+            "end": 253.209,
+            "video_title": "Network Topology",
+            "text": "this computer is this line and there is no redundant line then that is why this network is not a fault tolerant network at the same time the cable length is limited to certain range also I have"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 250.87,
+            "end": 264.13,
+            "video_title": "Network Topology",
+            "text": "already mentioned if this node wants to send some data to this node everyone participating in this network will receive a copy of the signal so there is no security in this approach and that's"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 261.88,
+            "end": 275.19,
+            "video_title": "Network Topology",
+            "text": "the advantages and disadvantages of bus topology and coming to the second topology the ring topology a ring topology is a bus topology but in a closed loop if you"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 272.61,
+            "end": 286.79999999999995,
+            "video_title": "Network Topology",
+            "text": "observe this is a bus topology but this is a closed loop so here the nodes involved are peer-to-peer and LAN topology nodes it means there is no one in superior in this network and there is"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 284.7,
+            "end": 299.58000000000004,
+            "video_title": "Network Topology",
+            "text": "no one inferior in this network all nodes are with equal rights and that is why we call these nodes are peer-to-peer nodes and every node will have two connections one to each of its nearest"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 297.21,
+            "end": 311.01,
+            "video_title": "Network Topology",
+            "text": "neighbors and the communication is always unidirectional suppose if this node wants to send some data to this node and the network is set up like the flow of data should be in this direction"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 308.31,
+            "end": 321.99,
+            "video_title": "Network Topology",
+            "text": "and this node will send this data to this node and this node will forward the data to this node this node this node and finally it will be received by this node the communication will not happen"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 319.5,
+            "end": 333.09000000000003,
+            "video_title": "Network Topology",
+            "text": "directly like this the communication will be like this because the communication pattern of ring topology is always unidirectional and you may ask me how this communication will happen it"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 330.93,
+            "end": 345.48,
+            "video_title": "Network Topology",
+            "text": "is with the help of a token that is why we call this topology as a token ring topology now we will see how sending and receiving happens with the help of this token let this be a token whoever has"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 342.96,
+            "end": 357.45,
+            "video_title": "Network Topology",
+            "text": "this token it means it's their turn to send data for example if this node has the token it means it's the turn of this node to send the data after some time the token will be moved on to the next"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 355.02,
+            "end": 368.43,
+            "video_title": "Network Topology",
+            "text": "node it means that it's this computer's turn to send the data after some point of time the token will be passed on and this token will be circulated throughout this network it means whoever holds this"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 366.21,
+            "end": 379.62,
+            "video_title": "Network Topology",
+            "text": "token it's their time to send their data and this is how all nodes gets opportunity to send or receive the data just watch this example the token is circulated throughout this network it"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 377.16,
+            "end": 391.979,
+            "video_title": "Network Topology",
+            "text": "means whoever is holding this token it's their turn to send the data and this is what exactly a ring topology is coming to the advantages of ring topology it has better performance than"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 389.22,
+            "end": 403.74,
+            "video_title": "Network Topology",
+            "text": "bus topology because it is in a close to loop but the problem is if this link is a weak link this ring topology causes some bottleneck in the network because of this weak link at the same time all"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 401.34,
+            "end": 414.27,
+            "video_title": "Network Topology",
+            "text": "nodes are having equal access which is considered to be one of the advantages of ring topology and coming to the disadvantages of ring topology I have already mentioned it is unidirectional"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 411.509,
+            "end": 425.219,
+            "video_title": "Network Topology",
+            "text": "say if this node wants to send some data to this node it is very easy to send this way but link topology is a unidirectional communication pattern it has to send the data by crossing these"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 423.21,
+            "end": 438.03,
+            "video_title": "Network Topology",
+            "text": "many nodes and finally reach the destination and one of the disadvantages is being uni direction at the same time a single point of failure say this link is failed so the entire network is"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 435.389,
+            "end": 450.09000000000003,
+            "video_title": "Network Topology",
+            "text": "disrupted because of this a node failure or a link failure will definitely affect the entire network and this is what the primary disadvantage of a ring topology if there is very high load in the"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 448.139,
+            "end": 460.08,
+            "video_title": "Network Topology",
+            "text": "network then the performance of the network is getting degraded if this is going to send some confidential data to this computer but again this has to cross so many intermediary nodes in"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 458.34,
+            "end": 471.229,
+            "video_title": "Network Topology",
+            "text": "order to reach the destination and obviously there is no security in this ring topology never will see that third topology the star topology in this case every node is"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 469.849,
+            "end": 482.92900000000003,
+            "video_title": "Network Topology",
+            "text": "connected to each other but not directly but with the help of a central node this central node can be a hub or a switch we will deal elaborately about hub and switch in the upcoming"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 480.439,
+            "end": 493.42900000000003,
+            "video_title": "Network Topology",
+            "text": "lectures for time being you just make a note of this hub or a switch as a central device or a central node and this is going to do the entire centralized administration and all"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 491.329,
+            "end": 503.479,
+            "video_title": "Network Topology",
+            "text": "traffic must pass through the hub or a switch suppose if this node wants to send some data to this node so obviously this is going to send the data to the central node which is the hub or the"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 501.799,
+            "end": 512.899,
+            "video_title": "Network Topology",
+            "text": "switch here and it is the responsibility of this hub or switch to forward the data to this node that is the destination if you observe keenly in the previous"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 510.469,
+            "end": 523.8789999999999,
+            "video_title": "Network Topology",
+            "text": "cases there were chances for other nodes to receive a copy of the data but here if this node wants to send some data to this node and if this is going to be the path of this communication and there is"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 521.959,
+            "end": 533.569,
+            "video_title": "Network Topology",
+            "text": "no way for others to hear this communication or see this communication but there are some differences between hub or switch which will be dealt elaborately in the next lecture"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 531.92,
+            "end": 545.48,
+            "video_title": "Network Topology",
+            "text": "coming to the advantages and disadvantages of star topology it is definitely very easy to design and implement at the same time we have a centralized administrator here this is"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 542.749,
+            "end": 557.389,
+            "video_title": "Network Topology",
+            "text": "the hub or a switch if the switch has 24 ports for example you can connect 24 computers to the switch if you find that 24 computers are not sufficient you have 50 more computers you bring another"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 555.109,
+            "end": 568.1,
+            "video_title": "Network Topology",
+            "text": "switch and connect all the computers to that switch and again make a communication between this switch and this switch so that this network becomes a scalable network so star topology is"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 565.459,
+            "end": 581.059,
+            "video_title": "Network Topology",
+            "text": "easy to design and implement and there is a centralized administration and it is a scalable Network and star topology has a serious disadvantages to a failure in this central node will affect the"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 578.54,
+            "end": 593.749,
+            "video_title": "Network Topology",
+            "text": "entire network if this node that is the switch or the hub is failed no communication can take place at the same time if this node is overloaded with lot of traffic and lot of processing then"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 591.859,
+            "end": 605.449,
+            "video_title": "Network Topology",
+            "text": "the communication or the performance is affected that is what we call as a bottleneck you have to spend some money for purchasing this hub or a switch so obviously it is going to increase the"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 602.809,
+            "end": 617.329,
+            "video_title": "Network Topology",
+            "text": "cost so there are some disadvantages a single point failure is going to affect the whole network and there can be bottlenecks due to a overloaded hub or switch at the same time you have to"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 615.019,
+            "end": 629.54,
+            "video_title": "Network Topology",
+            "text": "spend more for purchasing this hub or a switch we can also have a variation of a star topology like this this is one star topology another star topology you can connect these to start apology's with"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 627.499,
+            "end": 640.029,
+            "video_title": "Network Topology",
+            "text": "the help of a repeater we will see about repeaters in the next lecture now the point to note is that two or more star topologies can be connected with each other like this"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 637.54,
+            "end": 652.36,
+            "video_title": "Network Topology",
+            "text": "and the last topology of the session is the mesh topology if you observe there are five nodes and if you observe this node is having a link to all other nodes likewise this"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 650.11,
+            "end": 665.74,
+            "video_title": "Network Topology",
+            "text": "node is having link to all other nodes so if you observe cleanly this is the topology where each node is directly connected to every other nodes in the network and thereby it provides 100%"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 662.589,
+            "end": 679.2090000000001,
+            "video_title": "Network Topology",
+            "text": "fault tolerant and reliability suppose if there is a link failure encounter here and this computer has another way to reach the destination if this link is failed this computer has so many ways to"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 676.75,
+            "end": 692.17,
+            "video_title": "Network Topology",
+            "text": "reach the destination this is one way this is another way and this is another way and this is another way there are so many ways for a node to reach the destination you will see the advantages"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 689.709,
+            "end": 703.66,
+            "video_title": "Network Topology",
+            "text": "and disadvantages numb the advantages of mesh topology are it is fault tolerant it means a failure is not going to affect the network at the same time you can rely upon this network because"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 701.62,
+            "end": 714.79,
+            "video_title": "Network Topology",
+            "text": "somehow your data will definitely reach the destination even if there are link failures and coming to the disadvantages if this is going to send a broadcast message broadcasting means one sender"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 712.6,
+            "end": 725.17,
+            "video_title": "Network Topology",
+            "text": "all receivers this broadcast will be forwarded to everyone in the network again this guy is going to do a broadcast to everyone in the network the same broadcast which is sent by this"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 722.74,
+            "end": 735.94,
+            "video_title": "Network Topology",
+            "text": "computer and it will also be received by other computers and those computers are going to format the same broadcast to the sender there are some issues with the broadcasting since mesh topology"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 733.18,
+            "end": 747.189,
+            "video_title": "Network Topology",
+            "text": "involves a lot of links so it is obviously an expensive one at the same time for smaller networks this mesh topology will work fine and it is really impractical if your network involves one"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 745.3,
+            "end": 757.38,
+            "video_title": "Network Topology",
+            "text": "thousand or two thousand computers or more than that these are all the disadvantages of a mesh topology now there is a question for you but this question need not to be answered in a"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 755.46,
+            "end": 770.4300000000001,
+            "video_title": "Network Topology",
+            "text": "very detailed manner just the name of the topology is sufficient what is the topology shown in the scenario if you observe there is a bus topology there is a star topology and mesh topology as"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 767.94,
+            "end": 781.86,
+            "video_title": "Network Topology",
+            "text": "well an all network are connected to each other can we give any single name for this topology yes we can give and this is an example for a hybrid topology where this"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 779.82,
+            "end": 796.23,
+            "video_title": "Network Topology",
+            "text": "topology can be with one or more different topologies and that's it guys we are at the end of the session I hope now you have understood what is bus topology star ring mesh and hybrid we"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 794.22,
+            "end": 805.25,
+            "video_title": "Network Topology",
+            "text": "also have dealt elaborately about the advantages and disadvantages of each topology I hope the session is informating and thank you guys for watching"
+        },
+        {
+            "video_id": "uSKdjjw5zow",
+            "start": 808.27,
+            "end": 817.64,
+            "video_title": "Network Topology",
+            "text": "[Music]"
+        }
+    ],
+    "text": "today we will see network topology upon the completion of this session we will be able to understand various network topologies like bus star ring mesh and hybrid we will also understand what are the advantages and disadvantages of bus star ring mesh and hybrid topologies firstly we will start with what is a network topology we have some nodes and we have to arrange these nodes so that we can establish communication among all the nodes topology means arrangement of nodes of a computer network say I have to arrange all these nodes so that I can establish communication among all the nodes topology can be viewed as a layout of a computer network topology can be viewed as a physical topology and logical topology physical topology means where I am going to place all these nodes this is what physical topology say I can place all these three nodes in ground floor of my building I can also take this two nodes to the first floor of my building and the placement of these nodes is called as physical topology logical topology means how the data is going to flow from this node to this node this node may be in ground flow this node may be in first floor how I am going to deal with the data flow in the network that is viewed as the logical topology simply topology means the arrangement of nodes in such a way that we have to make communication among all the nodes we will see what are the various topologies bus ring star mesh and hybrid we will see one by one in detail bus topology in bus topology there is a common transmission medium and all nodes are connected to this transmission medium suppose if node gave wants to send some data to node B and it can send the data over this transmission medium and all nodes will receive this transmission that is the data now the problem with this approach is if you wants to send some data to be everyone will receive a copy of the data signal including B but all others will deny or reject this packet why because this data signal is intended to the recipient be and not to anyone else in the network so now we will see what is a bus topology as per the definition all data transmitted between nodes in the network is transmitted over this common transmission medium this is the common transmission medium and all nodes will receive the signal simultaneously this transmission medium is capable of sending as well as receiving the data so the data flow in this transmission medium is bi-directional it means data can flow in both direction we will see the advantages and disadvantages of bus topology since there is only one wire or the cable involved this transmission it is less expensive at the same time if you are going to construct a temporary Network where this is not going to last for a long then you can go for bus topology another advantage of having this network is that if any node failure please watch this this is a node failure and this node failure does not affect others and these are all the advantages of bus topology there are some disadvantages with this Network and this is obviously not a fault tolerant Network we have already seen what is a fault tolerant network fault tolerance means if there is a failure and this failure should not affect others but if this link this transmission medium is failed obviously the entire network goes down at the same time if this node wants to send some data to this node and there is a problem in this line so communication here can take place but the communication between this place will not happen why because this is not dealing with any alternative technique the only way for this computer to reach this computer is this line and there is no redundant line then that is why this network is not a fault tolerant network at the same time the cable length is limited to certain range also I have already mentioned if this node wants to send some data to this node everyone participating in this network will receive a copy of the signal so there is no security in this approach and that's the advantages and disadvantages of bus topology and coming to the second topology the ring topology a ring topology is a bus topology but in a closed loop if you observe this is a bus topology but this is a closed loop so here the nodes involved are peer-to-peer and LAN topology nodes it means there is no one in superior in this network and there is no one inferior in this network all nodes are with equal rights and that is why we call these nodes are peer-to-peer nodes and every node will have two connections one to each of its nearest neighbors and the communication is always unidirectional suppose if this node wants to send some data to this node and the network is set up like the flow of data should be in this direction and this node will send this data to this node and this node will forward the data to this node this node this node and finally it will be received by this node the communication will not happen directly like this the communication will be like this because the communication pattern of ring topology is always unidirectional and you may ask me how this communication will happen it is with the help of a token that is why we call this topology as a token ring topology now we will see how sending and receiving happens with the help of this token let this be a token whoever has this token it means it's their turn to send data for example if this node has the token it means it's the turn of this node to send the data after some time the token will be moved on to the next node it means that it's this computer's turn to send the data after some point of time the token will be passed on and this token will be circulated throughout this network it means whoever holds this token it's their time to send their data and this is how all nodes gets opportunity to send or receive the data just watch this example the token is circulated throughout this network it means whoever is holding this token it's their turn to send the data and this is what exactly a ring topology is coming to the advantages of ring topology it has better performance than bus topology because it is in a close to loop but the problem is if this link is a weak link this ring topology causes some bottleneck in the network because of this weak link at the same time all nodes are having equal access which is considered to be one of the advantages of ring topology and coming to the disadvantages of ring topology I have already mentioned it is unidirectional say if this node wants to send some data to this node it is very easy to send this way but link topology is a unidirectional communication pattern it has to send the data by crossing these many nodes and finally reach the destination and one of the disadvantages is being uni direction at the same time a single point of failure say this link is failed so the entire network is disrupted because of this a node failure or a link failure will definitely affect the entire network and this is what the primary disadvantage of a ring topology if there is very high load in the network then the performance of the network is getting degraded if this is going to send some confidential data to this computer but again this has to cross so many intermediary nodes in order to reach the destination and obviously there is no security in this ring topology never will see that third topology the star topology in this case every node is connected to each other but not directly but with the help of a central node this central node can be a hub or a switch we will deal elaborately about hub and switch in the upcoming lectures for time being you just make a note of this hub or a switch as a central device or a central node and this is going to do the entire centralized administration and all traffic must pass through the hub or a switch suppose if this node wants to send some data to this node so obviously this is going to send the data to the central node which is the hub or the switch here and it is the responsibility of this hub or switch to forward the data to this node that is the destination if you observe keenly in the previous cases there were chances for other nodes to receive a copy of the data but here if this node wants to send some data to this node and if this is going to be the path of this communication and there is no way for others to hear this communication or see this communication but there are some differences between hub or switch which will be dealt elaborately in the next lecture coming to the advantages and disadvantages of star topology it is definitely very easy to design and implement at the same time we have a centralized administrator here this is the hub or a switch if the switch has 24 ports for example you can connect 24 computers to the switch if you find that 24 computers are not sufficient you have 50 more computers you bring another switch and connect all the computers to that switch and again make a communication between this switch and this switch so that this network becomes a scalable network so star topology is easy to design and implement and there is a centralized administration and it is a scalable Network and star topology has a serious disadvantages to a failure in this central node will affect the entire network if this node that is the switch or the hub is failed no communication can take place at the same time if this node is overloaded with lot of traffic and lot of processing then the communication or the performance is affected that is what we call as a bottleneck you have to spend some money for purchasing this hub or a switch so obviously it is going to increase the cost so there are some disadvantages a single point failure is going to affect the whole network and there can be bottlenecks due to a overloaded hub or switch at the same time you have to spend more for purchasing this hub or a switch we can also have a variation of a star topology like this this is one star topology another star topology you can connect these to start apology's with the help of a repeater we will see about repeaters in the next lecture now the point to note is that two or more star topologies can be connected with each other like this and the last topology of the session is the mesh topology if you observe there are five nodes and if you observe this node is having a link to all other nodes likewise this node is having link to all other nodes so if you observe cleanly this is the topology where each node is directly connected to every other nodes in the network and thereby it provides 100% fault tolerant and reliability suppose if there is a link failure encounter here and this computer has another way to reach the destination if this link is failed this computer has so many ways to reach the destination this is one way this is another way and this is another way and this is another way there are so many ways for a node to reach the destination you will see the advantages and disadvantages numb the advantages of mesh topology are it is fault tolerant it means a failure is not going to affect the network at the same time you can rely upon this network because somehow your data will definitely reach the destination even if there are link failures and coming to the disadvantages if this is going to send a broadcast message broadcasting means one sender all receivers this broadcast will be forwarded to everyone in the network again this guy is going to do a broadcast to everyone in the network the same broadcast which is sent by this computer and it will also be received by other computers and those computers are going to format the same broadcast to the sender there are some issues with the broadcasting since mesh topology involves a lot of links so it is obviously an expensive one at the same time for smaller networks this mesh topology will work fine and it is really impractical if your network involves one thousand or two thousand computers or more than that these are all the disadvantages of a mesh topology now there is a question for you but this question need not to be answered in a very detailed manner just the name of the topology is sufficient what is the topology shown in the scenario if you observe there is a bus topology there is a star topology and mesh topology as well an all network are connected to each other can we give any single name for this topology yes we can give and this is an example for a hybrid topology where this topology can be with one or more different topologies and that's it guys we are at the end of the session I hope now you have understood what is bus topology star ring mesh and hybrid we also have dealt elaborately about the advantages and disadvantages of each topology I hope the session is informating and thank you guys for watching [Music] "
+}

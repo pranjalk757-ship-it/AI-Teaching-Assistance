@@ -1,0 +1,378 @@
+{
+    "video_id": "iE_kY2LVBKA",
+    "video_title": "Network Protocols & Communications (Part 2)",
+    "chunks": [
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 0.06,
+            "end": 15.299,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "hello everyone welcome back to the computer networks course and we are in part two of network protocols and communication in part one we have seen data communication data flow such as"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 12.36,
+            "end": 27.33,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "simplex half-duplex and full-duplex in part one we have also seen about protocols and the elements of protocol in today's session we will deal more on protocols and the importance of protocol"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 25.199,
+            "end": 39.23,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "in computer networks we will also understand what is peer-to-peer network and client-server network we will now have a small recap show on protocol whatever the communication pattern is if"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 36.66,
+            "end": 52.079,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "we want effective and good communication this cannot happen without protocols it is a set of rules that governs data communication any data communication must be governed by some set of rules"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 49.469,
+            "end": 64.79899999999999,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "and we call these rules as protocol simply protocol is a rule because these protocol determines what is communicated in the network how it is communicated in the network and when it is communicated"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 62.85,
+            "end": 76.74000000000001,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "in the previous lecture we have seen there are five elements of a protocol let us just recap sure all the five elements a protocol deals with message encoding message formatting and"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 73.77,
+            "end": 88.829,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "encapsulation message timing message size and message delivery options now we will see what is message encoding let Tom be the user now Tom wants something from amazon.com"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 86.49,
+            "end": 100.259,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "he opens the browser and gives the request to amazon.com and amazon.com responds back with what tom is needed if we observe this computer that is Tom's computer is connected with a wired"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 98.1,
+            "end": 113.67,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "medium the transmission medium here is wired medium this transmission medium is also called as a link this computer converts the data into signals and sends the signal on the transmission medium"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 110.22,
+            "end": 125.189,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "which is the cable here in case if Tom wants to access same amazon.com but not with a computer now with a smart phone now this smart phone is connected to the network with the help of a wireless"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 123.24,
+            "end": 137.56,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "medium and Tom's device that is this Mart phone converts the data into waves because the medium is Wireless in both the cases whether it is a wired medium or a wireless"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 134.25,
+            "end": 146.01999999999998,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "protocols converts the data into signals or waves by appropriately identifying the device to which it is connected to in this case Tom's mobile phone that is the"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 144.01,
+            "end": 158.71,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "smartphone converts the data into waves and after this data is received by this router and it has to forward this to router one or router two now this router is connected to router one as well as"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 156.46,
+            "end": 171.1,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "router two with the help of a wild medium the protocol in this router converts these waves into signals this is what the very important part of a protocol we will now see what is message"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 168.58,
+            "end": 184.27,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "formatting and encapsulation both the sender and the receiver must mutually agree upon common format so that the communication becomes understandable at the same time some encapsulation is also"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 181.09,
+            "end": 195.76000000000002,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "done with data that it is going to send this is going to add few more information with the data that is the source information and the destination information to be precise the IP address"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 193.63,
+            "end": 208.6,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "are added to the data which is going to be sent don't worry about this IP address now we have a separate lecture on IP address for time being now take like this every human is identified by"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 205.42,
+            "end": 220.93,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "his name likewise every computer in the network or every device in the network is identified by its IP address suppose if this computer wants to send some data with data it is going to encapsulate the"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 218.83,
+            "end": 232.48,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "source IP address and the destination IP address this source IP address and destination IP address are obviously going to be forwarded through any intermediary devices when any device"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 229.36,
+            "end": 243.28,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "receives that packet or data it knows from where the data is coming and what is the destination in order to forward the data to the destination it needs source information and the destination"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 240.91,
+            "end": 256.33,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "information this is message formatting and encapsulation so far we have seen message encoding message formatting and encapsulation now we will see why message timing is to be handled by a"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 253.12,
+            "end": 266.74,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "protocol if the sender is very fast and the receiver is a slow receiver and obviously receiver cannot handle the flow so there are chances for the data to get lost"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 264.16,
+            "end": 277.15,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "to avoid this loss due to high speed sending flow control has to be ensured by the protocol that is in what spiel the sender have to send that information is"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 274.87,
+            "end": 288.13,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "given to the sender this information will be provided to the sender by the receiver it means if this guy can handle ten data packets at a time so that information"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 285.82,
+            "end": 300.1,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "will be sent to the sender so this sender will start sending ten packets at a time this is very important and this is what we call as flow control and protocols are going to do this flow"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 297.13,
+            "end": 310.42,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "control at the same time after sending the data the sender will wait for a certain period of time because the time it is waiting in order to receive an acknowledgment this acknowledgment is"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 308.23,
+            "end": 321.52,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "really necessary in the network because the sender have to ensure that the data is received by the destination if the acknowledgment is not received on time the sender understands that there are"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 319.06,
+            "end": 334.27,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "some loss and it starts retransmitting that packet or data again so that there is no loss by the receiver so this flow control and the acknowledgment timing are maintained by protocols in the form"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 331.45,
+            "end": 346.54,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "of message timing the next element of the protocol is message size let's see an example we have a very big box to be transported from one building to other to transport the box we are given with a"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 344.47,
+            "end": 358.09000000000003,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "very small vehicle this vehicle can handle very small box but not that big box what will we do in order to do this transportation obviously we will break the big box into smaller pieces these"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 356.17,
+            "end": 370.06,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "pieces can be handled by the vehicle and each small pieces are transported to the other building that is the destination but there is a problem here there are some chances for the pieces to be missed"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 367.63,
+            "end": 382.51,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "during transportation to find it out we use numbering scheme that is when we break the big box into small pieces we will put numbers on every small box so that the destination can reassemble it"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 380.32,
+            "end": 394.96000000000004,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "in the right way at the same time this numbering will also help to identify if any packets or pieces are missing likewise if there is a big file but the link capacity is small so the protocol"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 392.77,
+            "end": 405.309,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "in this computer breaks this big file into smaller segments and each segment is numbered sequentially now these smaller segments can be trans voted over the network and this"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 403.629,
+            "end": 417.48900000000003,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "numbering will also help us to identify the missing packets after receiving all the smaller packets this receiver will reassemble all the packets with the help of the numbering it identifies if there"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 415.269,
+            "end": 429.78900000000004,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "are any missing packets this is what exactly the message sizing of a protocol and finally the message delivery option suppose if this guy wants to send exactly to one destination say for"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 426.939,
+            "end": 442.3,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "example this web server then one sender and one receiver this is an example for unicast communication this is unicasting because one sender and one receiver and the communication"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 439.539,
+            "end": 453.00899999999996,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "can also be multi casting it means in this network just see this is one network and in this network if this computer is sending data packets to these three computers alone but not to"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 451.569,
+            "end": 467.139,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "this printer and voice over IP phone then this will come under multi casting because there is a sender and group of receivers or not all receivers this is multi casting example FM radio if we"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 464.829,
+            "end": 477.849,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "tune on to that frequency then only we will receive that signal otherwise we will never receive that broadcasting means if this guy is sending some data packet and everybody in the network will"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 475.929,
+            "end": 490.749,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "receive that data packet this is what broadcasting is one sender all receiver is called as broadcasting and now we will see what is peer-to-peer network in a peer-to-peer network every node is"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 488.05,
+            "end": 502.98900000000003,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "called as appear and they are in equal level it means there is nobody superior and there is nobody inferior the problem with this is there is nobody in the centralized part to administer the"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 500.199,
+            "end": 514.779,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "communication it means whatever rights this guy has the same kind of rights this guy will also have and there is no centralized administration this is suitable for smaller applications but"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 512.38,
+            "end": 525.879,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "not for larger applications and the problem with this scenario is this peer-to-peer network is it is not scalable we have already seen what is scalability in our previous lecture"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 523.199,
+            "end": 537.939,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "scalability means new devices can be added to the network but this is not a scalable network why because if this computer has only two ports ports means how many devices it can be"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 535.209,
+            "end": 549.8789999999999,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "with if this computer has two ports then only two device can be connected with and that is why we call peer-to-peer network is not scalable coming to the client server network here we will have"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 547.54,
+            "end": 560.4699999999999,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "a centralized administration and this server is going to do the centralized administration and all the data will be here and these are all called slaves and this is going to be the master"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 558.22,
+            "end": 571.2090000000001,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "in other words these are all going to be called as planes and this is going to be the server that is why we call this scheme as client server network it is also called as request response model"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 569.019,
+            "end": 582.189,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "say if this guy wants some data from the server it first gives the request and after accepting the request this server gives the response whatever it is requested and obviously this is a"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 579.79,
+            "end": 593.0500000000001,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "scalable Network even if 100 devices wants to participate in the network it can be achieved but the problem means we are too dependent on the server when everyone starts using the server there"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 591.459,
+            "end": 603.91,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "are chances for the server to get overloaded and that's it guys now we shall recapture what we have seen today we have understood what are protocols and the role of protocols in"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 601.449,
+            "end": 614.2299999999999,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "computer networks we have seen message encoding message formatting and encapsulation message size message timing and messy delivery options in a detailed manner with an example and we"
+        },
+        {
+            "video_id": "iE_kY2LVBKA",
+            "start": 612.699,
+            "end": 629.2399999999999,
+            "video_title": "Network Protocols & Communications (Part 2)",
+            "text": "have also understood what is peer-to-peer network and what is client-server network I hope you enjoyed the lecture thank you very much you"
+        }
+    ],
+    "text": "hello everyone welcome back to the computer networks course and we are in part two of network protocols and communication in part one we have seen data communication data flow such as simplex half-duplex and full-duplex in part one we have also seen about protocols and the elements of protocol in today's session we will deal more on protocols and the importance of protocol in computer networks we will also understand what is peer-to-peer network and client-server network we will now have a small recap show on protocol whatever the communication pattern is if we want effective and good communication this cannot happen without protocols it is a set of rules that governs data communication any data communication must be governed by some set of rules and we call these rules as protocol simply protocol is a rule because these protocol determines what is communicated in the network how it is communicated in the network and when it is communicated in the previous lecture we have seen there are five elements of a protocol let us just recap sure all the five elements a protocol deals with message encoding message formatting and encapsulation message timing message size and message delivery options now we will see what is message encoding let Tom be the user now Tom wants something from amazon.com he opens the browser and gives the request to amazon.com and amazon.com responds back with what tom is needed if we observe this computer that is Tom's computer is connected with a wired medium the transmission medium here is wired medium this transmission medium is also called as a link this computer converts the data into signals and sends the signal on the transmission medium which is the cable here in case if Tom wants to access same amazon.com but not with a computer now with a smart phone now this smart phone is connected to the network with the help of a wireless medium and Tom's device that is this Mart phone converts the data into waves because the medium is Wireless in both the cases whether it is a wired medium or a wireless protocols converts the data into signals or waves by appropriately identifying the device to which it is connected to in this case Tom's mobile phone that is the smartphone converts the data into waves and after this data is received by this router and it has to forward this to router one or router two now this router is connected to router one as well as router two with the help of a wild medium the protocol in this router converts these waves into signals this is what the very important part of a protocol we will now see what is message formatting and encapsulation both the sender and the receiver must mutually agree upon common format so that the communication becomes understandable at the same time some encapsulation is also done with data that it is going to send this is going to add few more information with the data that is the source information and the destination information to be precise the IP address are added to the data which is going to be sent don't worry about this IP address now we have a separate lecture on IP address for time being now take like this every human is identified by his name likewise every computer in the network or every device in the network is identified by its IP address suppose if this computer wants to send some data with data it is going to encapsulate the source IP address and the destination IP address this source IP address and destination IP address are obviously going to be forwarded through any intermediary devices when any device receives that packet or data it knows from where the data is coming and what is the destination in order to forward the data to the destination it needs source information and the destination information this is message formatting and encapsulation so far we have seen message encoding message formatting and encapsulation now we will see why message timing is to be handled by a protocol if the sender is very fast and the receiver is a slow receiver and obviously receiver cannot handle the flow so there are chances for the data to get lost to avoid this loss due to high speed sending flow control has to be ensured by the protocol that is in what spiel the sender have to send that information is given to the sender this information will be provided to the sender by the receiver it means if this guy can handle ten data packets at a time so that information will be sent to the sender so this sender will start sending ten packets at a time this is very important and this is what we call as flow control and protocols are going to do this flow control at the same time after sending the data the sender will wait for a certain period of time because the time it is waiting in order to receive an acknowledgment this acknowledgment is really necessary in the network because the sender have to ensure that the data is received by the destination if the acknowledgment is not received on time the sender understands that there are some loss and it starts retransmitting that packet or data again so that there is no loss by the receiver so this flow control and the acknowledgment timing are maintained by protocols in the form of message timing the next element of the protocol is message size let's see an example we have a very big box to be transported from one building to other to transport the box we are given with a very small vehicle this vehicle can handle very small box but not that big box what will we do in order to do this transportation obviously we will break the big box into smaller pieces these pieces can be handled by the vehicle and each small pieces are transported to the other building that is the destination but there is a problem here there are some chances for the pieces to be missed during transportation to find it out we use numbering scheme that is when we break the big box into small pieces we will put numbers on every small box so that the destination can reassemble it in the right way at the same time this numbering will also help to identify if any packets or pieces are missing likewise if there is a big file but the link capacity is small so the protocol in this computer breaks this big file into smaller segments and each segment is numbered sequentially now these smaller segments can be trans voted over the network and this numbering will also help us to identify the missing packets after receiving all the smaller packets this receiver will reassemble all the packets with the help of the numbering it identifies if there are any missing packets this is what exactly the message sizing of a protocol and finally the message delivery option suppose if this guy wants to send exactly to one destination say for example this web server then one sender and one receiver this is an example for unicast communication this is unicasting because one sender and one receiver and the communication can also be multi casting it means in this network just see this is one network and in this network if this computer is sending data packets to these three computers alone but not to this printer and voice over IP phone then this will come under multi casting because there is a sender and group of receivers or not all receivers this is multi casting example FM radio if we tune on to that frequency then only we will receive that signal otherwise we will never receive that broadcasting means if this guy is sending some data packet and everybody in the network will receive that data packet this is what broadcasting is one sender all receiver is called as broadcasting and now we will see what is peer-to-peer network in a peer-to-peer network every node is called as appear and they are in equal level it means there is nobody superior and there is nobody inferior the problem with this is there is nobody in the centralized part to administer the communication it means whatever rights this guy has the same kind of rights this guy will also have and there is no centralized administration this is suitable for smaller applications but not for larger applications and the problem with this scenario is this peer-to-peer network is it is not scalable we have already seen what is scalability in our previous lecture scalability means new devices can be added to the network but this is not a scalable network why because if this computer has only two ports ports means how many devices it can be with if this computer has two ports then only two device can be connected with and that is why we call peer-to-peer network is not scalable coming to the client server network here we will have a centralized administration and this server is going to do the centralized administration and all the data will be here and these are all called slaves and this is going to be the master in other words these are all going to be called as planes and this is going to be the server that is why we call this scheme as client server network it is also called as request response model say if this guy wants some data from the server it first gives the request and after accepting the request this server gives the response whatever it is requested and obviously this is a scalable Network even if 100 devices wants to participate in the network it can be achieved but the problem means we are too dependent on the server when everyone starts using the server there are chances for the server to get overloaded and that's it guys now we shall recapture what we have seen today we have understood what are protocols and the role of protocols in computer networks we have seen message encoding message formatting and encapsulation message size message timing and messy delivery options in a detailed manner with an example and we have also understood what is peer-to-peer network and what is client-server network I hope you enjoyed the lecture thank you very much you "
+}

@@ -1,0 +1,21 @@
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.local
+audios/
+embeddings/
+transcripts/
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/

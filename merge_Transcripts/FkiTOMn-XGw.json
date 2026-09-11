@@ -1,0 +1,245 @@
+{
+    "video_id": "FkiTOMn-XGw",
+    "video_title": "Basics of MAC Addressing",
+    "chunks": [
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 0.0,
+            "end": 15.17,
+            "video_title": "Basics of MAC Addressing",
+            "text": "hello everyone welcome to the next lecture in the computer networks series and today we will see the basics of mark addressing before we start we will see the outcomes of today's session in"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 12.84,
+            "end": 28.529,
+            "video_title": "Basics of MAC Addressing",
+            "text": "today's session we have three outcomes outcome number one we will understand the basics of mark addressing outcome number two we will understand the difference between IP address and MAC"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 25.68,
+            "end": 43.32,
+            "video_title": "Basics of MAC Addressing",
+            "text": "address and outcome number three we will see the MAC address in real device we will now move on to the basics of mark addressing MAC address Mac stands for media access control we will talk about"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 41.129,
+            "end": 57.69,
+            "video_title": "Basics of MAC Addressing",
+            "text": "this media access control in the data link layer part of our series for time being you just understand Mac stands for media access control and every node in the local area network is identified"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 54.93,
+            "end": 70.89,
+            "video_title": "Basics of MAC Addressing",
+            "text": "with the help of MAC address only to understand more about this we will take an analogy IP addresses are like the location of a person suppose if a person is in Delhi his location is Delhi for"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 68.549,
+            "end": 83.97,
+            "video_title": "Basics of MAC Addressing",
+            "text": "person is in Mumbai his location is Mumbai if a person is in London his location is London so IP addresses are like the location of a person wherever the person goes his location gets"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 80.97,
+            "end": 94.59,
+            "video_title": "Basics of MAC Addressing",
+            "text": "changed but MAC addresses are like the name of the person wherever he goes his location may get changed but his name will not get changed so that is what the difference between an IP"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 92.22,
+            "end": 108.65899999999999,
+            "video_title": "Basics of MAC Addressing",
+            "text": "address and a MAC address will see an example now in this example we have many n devices and many intermediary devices suppose if this computer wants to send some data to this computer and this"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 106.619,
+            "end": 122.299,
+            "video_title": "Basics of MAC Addressing",
+            "text": "communication happens with the help of both IP address and MAC address actually routers need IP address and switches need mark address for example this is the source and it wants to send some"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 120.299,
+            "end": 134.69,
+            "video_title": "Basics of MAC Addressing",
+            "text": "data to this receiver or the destination with data it is going to send it is going to add IP address and by Petrus when the router receives this packet it takes the forwarding decision"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 131.81,
+            "end": 145.64000000000001,
+            "video_title": "Basics of MAC Addressing",
+            "text": "based on IP address once the data is received by this switch and it is the responsibility of the switch to deliver the data to the light destination so switch gives the data to the right"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 142.7,
+            "end": 157.37,
+            "video_title": "Basics of MAC Addressing",
+            "text": "destination based on the MAC address so IP addresses our router friendly addresses and MAC addresses are switched friendly addresses when any data wants to be sent from any source to the"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 154.73,
+            "end": 168.38,
+            "video_title": "Basics of MAC Addressing",
+            "text": "destination so switch takes the decision based on the MAC address and router takes the decision based on the IP address and every switch will maintain a MAC address table so that it knows to"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 166.19,
+            "end": 180.53,
+            "video_title": "Basics of MAC Addressing",
+            "text": "which computer it has to forward which computer has that corresponding MAC address in a local area network we need mark address in order to send the data to the right destination we will now see"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 177.59,
+            "end": 192.739,
+            "video_title": "Basics of MAC Addressing",
+            "text": "more about mark address we have already seen every node in the local area network is identified with the help of MAC address and these mark addressed our physical address or it can also be"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 190.489,
+            "end": 204.56,
+            "video_title": "Basics of MAC Addressing",
+            "text": "called as Hardware address we know very well that IP addresses our logical address where can be changed but this MAC addresses cannot be changed and it will be normally unique throughout the"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 201.769,
+            "end": 215.989,
+            "video_title": "Basics of MAC Addressing",
+            "text": "world so if you have a computer and that computers mark address will not be given to any computers mark undress in the world at the same time these MAC addresses cannot be changed why because"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 213.56,
+            "end": 232.94,
+            "video_title": "Basics of MAC Addressing",
+            "text": "these mark addresses are assigned by the manufacturer and the mark addresses are represented in hexadecimal an example X additional value that is the MAC address is shown here 70 - 20 - 84 - 0 0 - II D"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 230.09,
+            "end": 247.1,
+            "video_title": "Basics of MAC Addressing",
+            "text": "- f see this is an example MAC address and this MAC address is all 48 bits and this separator in the MAC address is decided by the manufacturer and there are separators like - periods or dots or"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 244.43,
+            "end": 258.51,
+            "video_title": "Basics of MAC Addressing",
+            "text": "even colons so the manufacturer decides which separated they want to use for their MAC address representation we will now see the difference between an IP address and a MAC address so IP address"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 257.299,
+            "end": 271.68,
+            "video_title": "Basics of MAC Addressing",
+            "text": "vs market so IP address are definitely needed for our communication obviously MAC address is also needed for our communication and IP addresses are of 32 bits whereas MAC"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 269.1,
+            "end": 283.11,
+            "video_title": "Basics of MAC Addressing",
+            "text": "addresses are of 48 bits and we know very well that IP addresses are represented in decimal whereas MAC addresses are represented in hexadecimal router needs IP address to"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 280.29,
+            "end": 300.75,
+            "video_title": "Basics of MAC Addressing",
+            "text": "forward the data whereas switch needs markedness to forward the data so this is an example IP address which uses dot as the separator 10.10.5.3 6 whereas 70 - 20 - 84 I from 0 0 - 80 - FC this is"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 298.08,
+            "end": 312.45000000000005,
+            "video_title": "Basics of MAC Addressing",
+            "text": "an example MAC address anyway we will be studying about this IP address and MAC address more in the tcp/ip layering as well as in the voice reference model so far we have seen about MAC address and"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 310.14,
+            "end": 324.56,
+            "video_title": "Basics of MAC Addressing",
+            "text": "the comparison between IP address and MAC address now we will see how to see MAC address in real device to see the MAC address in real device go to the command prompt by just typing CMD in the"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 323.1,
+            "end": 342.15000000000003,
+            "video_title": "Basics of MAC Addressing",
+            "text": "search bar after giving CMD the command prompt gets opened enough now to see the IP address we used to give IP config to see the MAC address we are required to give the"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 335.58,
+            "end": 354.96000000000004,
+            "video_title": "Basics of MAC Addressing",
+            "text": "command ipconfig /all so this is the command that is used to see the MAC address details if you observe here I have an Ethernet adapter where I can establish my local area network with my"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 351.21,
+            "end": 365.82,
+            "video_title": "Basics of MAC Addressing",
+            "text": "Ethernet cable or I can also use local area network through Wi-Fi in this case I have established my local area network through Wi-Fi and we will see what is the MAC address of this Wi-Fi adapter so"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 363.93,
+            "end": 381.27000000000004,
+            "video_title": "Basics of MAC Addressing",
+            "text": "this is the physical address we already know physical address means MAC address and 9 4 - 3 9 - e 5 - a 7 - 4 C - 60 and this is the MAC address of this computer now any data that goes from this"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 378.66,
+            "end": 393.939,
+            "video_title": "Basics of MAC Addressing",
+            "text": "computer it uses this as the source MAC address suppose if somebody is replying to me and once my Wi-Fi router receives this data and there may be hundreds of devices connected to my Wi-Fi router"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 391.569,
+            "end": 404.409,
+            "video_title": "Basics of MAC Addressing",
+            "text": "my Wi-Fi router delivers the data to this computer by identifying this MAC address so mark addresses are very important in a local area network so far we have seen"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 402.49,
+            "end": 415.99,
+            "video_title": "Basics of MAC Addressing",
+            "text": "how to see MAC address in real device that's it guys we are now at the verge of completing this session I hope now you understood the basics of mac addressing and you understood the"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 413.649,
+            "end": 431.20000000000005,
+            "video_title": "Basics of MAC Addressing",
+            "text": "difference between IP address and MAC address and you also know how to see MAC address in real device that is ipconfig /all I hope you enjoyed this session and thank you for watching"
+        },
+        {
+            "video_id": "FkiTOMn-XGw",
+            "start": 428.13,
+            "end": 440.5,
+            "video_title": "Basics of MAC Addressing",
+            "text": "[Applause] [Music]"
+        }
+    ],
+    "text": "hello everyone welcome to the next lecture in the computer networks series and today we will see the basics of mark addressing before we start we will see the outcomes of today's session in today's session we have three outcomes outcome number one we will understand the basics of mark addressing outcome number two we will understand the difference between IP address and MAC address and outcome number three we will see the MAC address in real device we will now move on to the basics of mark addressing MAC address Mac stands for media access control we will talk about this media access control in the data link layer part of our series for time being you just understand Mac stands for media access control and every node in the local area network is identified with the help of MAC address only to understand more about this we will take an analogy IP addresses are like the location of a person suppose if a person is in Delhi his location is Delhi for person is in Mumbai his location is Mumbai if a person is in London his location is London so IP addresses are like the location of a person wherever the person goes his location gets changed but MAC addresses are like the name of the person wherever he goes his location may get changed but his name will not get changed so that is what the difference between an IP address and a MAC address will see an example now in this example we have many n devices and many intermediary devices suppose if this computer wants to send some data to this computer and this communication happens with the help of both IP address and MAC address actually routers need IP address and switches need mark address for example this is the source and it wants to send some data to this receiver or the destination with data it is going to send it is going to add IP address and by Petrus when the router receives this packet it takes the forwarding decision based on IP address once the data is received by this switch and it is the responsibility of the switch to deliver the data to the light destination so switch gives the data to the right destination based on the MAC address so IP addresses our router friendly addresses and MAC addresses are switched friendly addresses when any data wants to be sent from any source to the destination so switch takes the decision based on the MAC address and router takes the decision based on the IP address and every switch will maintain a MAC address table so that it knows to which computer it has to forward which computer has that corresponding MAC address in a local area network we need mark address in order to send the data to the right destination we will now see more about mark address we have already seen every node in the local area network is identified with the help of MAC address and these mark addressed our physical address or it can also be called as Hardware address we know very well that IP addresses our logical address where can be changed but this MAC addresses cannot be changed and it will be normally unique throughout the world so if you have a computer and that computers mark address will not be given to any computers mark undress in the world at the same time these MAC addresses cannot be changed why because these mark addresses are assigned by the manufacturer and the mark addresses are represented in hexadecimal an example X additional value that is the MAC address is shown here 70 - 20 - 84 - 0 0 - II D - f see this is an example MAC address and this MAC address is all 48 bits and this separator in the MAC address is decided by the manufacturer and there are separators like - periods or dots or even colons so the manufacturer decides which separated they want to use for their MAC address representation we will now see the difference between an IP address and a MAC address so IP address vs market so IP address are definitely needed for our communication obviously MAC address is also needed for our communication and IP addresses are of 32 bits whereas MAC addresses are of 48 bits and we know very well that IP addresses are represented in decimal whereas MAC addresses are represented in hexadecimal router needs IP address to forward the data whereas switch needs markedness to forward the data so this is an example IP address which uses dot as the separator 10.10.5.3 6 whereas 70 - 20 - 84 I from 0 0 - 80 - FC this is an example MAC address anyway we will be studying about this IP address and MAC address more in the tcp/ip layering as well as in the voice reference model so far we have seen about MAC address and the comparison between IP address and MAC address now we will see how to see MAC address in real device to see the MAC address in real device go to the command prompt by just typing CMD in the search bar after giving CMD the command prompt gets opened enough now to see the IP address we used to give IP config to see the MAC address we are required to give the command ipconfig /all so this is the command that is used to see the MAC address details if you observe here I have an Ethernet adapter where I can establish my local area network with my Ethernet cable or I can also use local area network through Wi-Fi in this case I have established my local area network through Wi-Fi and we will see what is the MAC address of this Wi-Fi adapter so this is the physical address we already know physical address means MAC address and 9 4 - 3 9 - e 5 - a 7 - 4 C - 60 and this is the MAC address of this computer now any data that goes from this computer it uses this as the source MAC address suppose if somebody is replying to me and once my Wi-Fi router receives this data and there may be hundreds of devices connected to my Wi-Fi router my Wi-Fi router delivers the data to this computer by identifying this MAC address so mark addresses are very important in a local area network so far we have seen how to see MAC address in real device that's it guys we are now at the verge of completing this session I hope now you understood the basics of mac addressing and you understood the difference between IP address and MAC address and you also know how to see MAC address in real device that is ipconfig /all I hope you enjoyed this session and thank you for watching [Applause] [Music] "
+}

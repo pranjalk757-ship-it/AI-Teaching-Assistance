@@ -1,0 +1,301 @@
+{
+    "video_id": "m8eNwVel5xI",
+    "video_title": "Computer Networks - Basic Characteristics",
+    "chunks": [
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 0.12,
+            "end": 13.44,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "hello everyone welcome back to the computer networks course and today we shall see the basic characteristics of computer network before we step into the basic characteristics we shall set some"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 11.19,
+            "end": 24.630000000000003,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "outcomes of this session upon the completion of this session we will be able to understand the need for fault tolerant networks and scalable networks we shall understand what is quality of"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 22.14,
+            "end": 40.079,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "service and we shall also understand why do we need security in computer networks there are 4 basic characteristics any computer network should possess fault tolerance scalability quality of service"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 36.96,
+            "end": 51.75,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "and security if we say there is a computer network and that computer network should be fault tolerant it should be scalable it should provide quality of service and it should also"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 49.11,
+            "end": 64.739,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "provide security we shall see each of these in a detailed manner firstly fault tolerance fault tolerance is the ability of the computer network to continue working despite failures and it should"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 62.43,
+            "end": 75.99,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "ensure there is no loss of service for example if we have a computer network and if there is a problem inside the computer network but still the computer network should work even after failures"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 73.229,
+            "end": 87.75,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "and thereby there is no loss of service before we go on to this example part you just visualize the scenario imagine you are going home back from your college you know very well about the best route"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 85.619,
+            "end": 98.67,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "to reach your home and you prefer taking this regular best route unfortunately there is a blockage and you cannot take this route further what will you do now will you go to your college back or you"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 97.02,
+            "end": 110.08999999999999,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "will find the next available route to reach your home I guess we all will find the next available route and we will take that route to reach home this is what we call as fault tolerance we shall"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 107.61,
+            "end": 125.61,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "see an example for fault tolerance now let us assume that these two entities are communicating with each other this computer and this web server through switch this wireless router this link"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 121.68,
+            "end": 137.70000000000002,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "this router one router 3 router 5 switch and web server unfortunately there is a failure maybe either in the link or this router has gone down so this router instead of"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 135.45,
+            "end": 150.32999999999998,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "forwarding the data through this way it forwards the data to router two so that this communication between this computer and this webserver is not affected because of this failure this is what"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 148.11,
+            "end": 164.34,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "exactly fault tolerance I hope now you understood why do we need fault tolerant network because we need to work despite failures and we need to ensure there is no loss of service this is what exactly"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 161.73,
+            "end": 178.76999999999998,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "fault tolerance now we shall see the second basic characteristic scalability it is the ability to grow based on the needs and have good performance even after growth for example if there are 10"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 175.98,
+            "end": 192.45000000000002,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "computers in a network and if again 10 computers are added to the network this network should work as like the same even after adding these 10 computers we shall see an example for the scalable"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 189.96,
+            "end": 205.23,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "Network the best example for a scalable network is the internet even this moment many new devices are connecting to internet and communicating to each other's internet handles this very"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 202.709,
+            "end": 221.459,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "perfectly and always gives hope for the newcomers this is what we exactly called as scalability in this example assume 100 computers are connected to router 3 and we expect our computer network to"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 218.91,
+            "end": 233.7,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "work as like the same even after adding these hundred devices this is what we call a scalability and this is the ability to grow based on the needs and have good performance even after the"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 231.36,
+            "end": 246.239,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "growth of the network so far we have seen fault tolerance and scalability now we shall see the third basic characteristic of computer network the quality of service it is the ability to"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 243.12,
+            "end": 259.56,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "set priorities and manage data traffic to reduce data loss and delays for example if a router receives two packet at a time or two data at a time and this router should know to which data it"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 257.31,
+            "end": 269.39000000000004,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "should process first this is what we call a set priorities I shall explain about this quality of service in a detailed manner with an example have you noticed something is"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 267.23,
+            "end": 280.82,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "new in this picture which was not there in our previous lecture it is the voice over IP form vivo IP stands for voice over IP phone and this phone is different from our"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 278.54,
+            "end": 292.64,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "traditional landline phone this voice over IP phone since the voice data through the internet whereas our traditional landline phone since the voice data through the dedicated"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 289.64,
+            "end": 304.25,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "telephone network so this voice over IP phone is like our whatsapp call in whatsapp call our voice data is sent to the destination through the internet but not through the telephone network you"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 302.51,
+            "end": 316.22,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "may be wondering why I have brought in this voice over IP Phone I shall explain you why I have brought in this voice over IP Phone for a reason let's assume this guy is sending some"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 313.55,
+            "end": 328.46,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "email data to an email server through router one at the same time there are two guys who are talking over voice over IP Phone through Internet the situation is two guys are sending"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 326.33,
+            "end": 340.21999999999997,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "data at the same time where this router one is experiencing both the traffic at the same time one is the email traffic another one is the voice traffic that is the real-time communication now the"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 337.37,
+            "end": 353.51,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "question is to which data this router 1 will give priority whether to the real-time communication or to the email data actually route of 1 will process voice over IP phones data why because it"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 351.35,
+            "end": 366.47,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "is a real-time communication in real-time communication delays are not accepted whereas delays are not a problem in email communication a delay of one second in an email communication"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 364.43,
+            "end": 379.0,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "is not going to hurt the communication whereas a delay of one second in a real-time communication matters a lot and that is why this router gives priority to real-time communication than"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 376.76,
+            "end": 391.58,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "normal communication when router experiences two different kinds of data at the same time this router should be able to know to which data should you priority this is what we call as quality"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 388.94,
+            "end": 405.31,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "of service the main aspect of this quality of services that it handles law also it handles the delay now we shall see the final characteristics of computer network that is the security it"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 402.73,
+            "end": 418.6,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "is the ability to prevent unauthorized access misuse or forgery and not only prevention Network should also provide confidentiality integrity and availability to understand why do we"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 416.56,
+            "end": 432.85,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "need security we shall visit this example suppose someone from this computer is sending some confidential information to amazon.com once the data leaves our computer it is not in our"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 430.33,
+            "end": 445.84000000000003,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "hands Internet has good guys as well as bad guys whom we call as attackers please note attackers are bad guys assume our confidential information is flowing through router 3 and what if an"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 443.62,
+            "end": 459.34000000000003,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "attacker steals this information from router 3 they get access to our computer they can misuse or they can also involve in forgery so it becomes an important task for a computer network to provide"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 456.04,
+            "end": 471.67,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "confidentiality that is the data which is not sent just like that as what we had sent it means if it is a confidential data this data is converted to a different form if that form can be"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 469.63,
+            "end": 484.29999999999995,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "understandable only by the sender and the receiver at the same time there is no modification of data sent should be there that is this network should provide integrity whatever the sender is"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 482.17,
+            "end": 495.66999999999996,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "sending that only the receiver should receive so this property we call as integrity attacker always tried to deface this web servers so that this resource becomes unavailable for access"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 493.99,
+            "end": 508.87,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "so it becomes the ultimate responsibility of a computer network to provide security because network should prevent unauthorized access misuse and forgery and it should also provide"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 506.76,
+            "end": 522.07,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "confidentiality integrity and availability I hope now you are clear with all the basic characteristics of a computer network a fault tolerant Network a scalable network the quality"
+        },
+        {
+            "video_id": "m8eNwVel5xI",
+            "start": 519.22,
+            "end": 538.09,
+            "video_title": "Computer Networks - Basic Characteristics",
+            "text": "of service and security thank you for watching we shall meet again in the upcoming lectures [Applause] [Music]"
+        }
+    ],
+    "text": "hello everyone welcome back to the computer networks course and today we shall see the basic characteristics of computer network before we step into the basic characteristics we shall set some outcomes of this session upon the completion of this session we will be able to understand the need for fault tolerant networks and scalable networks we shall understand what is quality of service and we shall also understand why do we need security in computer networks there are 4 basic characteristics any computer network should possess fault tolerance scalability quality of service and security if we say there is a computer network and that computer network should be fault tolerant it should be scalable it should provide quality of service and it should also provide security we shall see each of these in a detailed manner firstly fault tolerance fault tolerance is the ability of the computer network to continue working despite failures and it should ensure there is no loss of service for example if we have a computer network and if there is a problem inside the computer network but still the computer network should work even after failures and thereby there is no loss of service before we go on to this example part you just visualize the scenario imagine you are going home back from your college you know very well about the best route to reach your home and you prefer taking this regular best route unfortunately there is a blockage and you cannot take this route further what will you do now will you go to your college back or you will find the next available route to reach your home I guess we all will find the next available route and we will take that route to reach home this is what we call as fault tolerance we shall see an example for fault tolerance now let us assume that these two entities are communicating with each other this computer and this web server through switch this wireless router this link this router one router 3 router 5 switch and web server unfortunately there is a failure maybe either in the link or this router has gone down so this router instead of forwarding the data through this way it forwards the data to router two so that this communication between this computer and this webserver is not affected because of this failure this is what exactly fault tolerance I hope now you understood why do we need fault tolerant network because we need to work despite failures and we need to ensure there is no loss of service this is what exactly fault tolerance now we shall see the second basic characteristic scalability it is the ability to grow based on the needs and have good performance even after growth for example if there are 10 computers in a network and if again 10 computers are added to the network this network should work as like the same even after adding these 10 computers we shall see an example for the scalable Network the best example for a scalable network is the internet even this moment many new devices are connecting to internet and communicating to each other's internet handles this very perfectly and always gives hope for the newcomers this is what we exactly called as scalability in this example assume 100 computers are connected to router 3 and we expect our computer network to work as like the same even after adding these hundred devices this is what we call a scalability and this is the ability to grow based on the needs and have good performance even after the growth of the network so far we have seen fault tolerance and scalability now we shall see the third basic characteristic of computer network the quality of service it is the ability to set priorities and manage data traffic to reduce data loss and delays for example if a router receives two packet at a time or two data at a time and this router should know to which data it should process first this is what we call a set priorities I shall explain about this quality of service in a detailed manner with an example have you noticed something is new in this picture which was not there in our previous lecture it is the voice over IP form vivo IP stands for voice over IP phone and this phone is different from our traditional landline phone this voice over IP phone since the voice data through the internet whereas our traditional landline phone since the voice data through the dedicated telephone network so this voice over IP phone is like our whatsapp call in whatsapp call our voice data is sent to the destination through the internet but not through the telephone network you may be wondering why I have brought in this voice over IP Phone I shall explain you why I have brought in this voice over IP Phone for a reason let's assume this guy is sending some email data to an email server through router one at the same time there are two guys who are talking over voice over IP Phone through Internet the situation is two guys are sending data at the same time where this router one is experiencing both the traffic at the same time one is the email traffic another one is the voice traffic that is the real-time communication now the question is to which data this router 1 will give priority whether to the real-time communication or to the email data actually route of 1 will process voice over IP phones data why because it is a real-time communication in real-time communication delays are not accepted whereas delays are not a problem in email communication a delay of one second in an email communication is not going to hurt the communication whereas a delay of one second in a real-time communication matters a lot and that is why this router gives priority to real-time communication than normal communication when router experiences two different kinds of data at the same time this router should be able to know to which data should you priority this is what we call as quality of service the main aspect of this quality of services that it handles law also it handles the delay now we shall see the final characteristics of computer network that is the security it is the ability to prevent unauthorized access misuse or forgery and not only prevention Network should also provide confidentiality integrity and availability to understand why do we need security we shall visit this example suppose someone from this computer is sending some confidential information to amazon.com once the data leaves our computer it is not in our hands Internet has good guys as well as bad guys whom we call as attackers please note attackers are bad guys assume our confidential information is flowing through router 3 and what if an attacker steals this information from router 3 they get access to our computer they can misuse or they can also involve in forgery so it becomes an important task for a computer network to provide confidentiality that is the data which is not sent just like that as what we had sent it means if it is a confidential data this data is converted to a different form if that form can be understandable only by the sender and the receiver at the same time there is no modification of data sent should be there that is this network should provide integrity whatever the sender is sending that only the receiver should receive so this property we call as integrity attacker always tried to deface this web servers so that this resource becomes unavailable for access so it becomes the ultimate responsibility of a computer network to provide security because network should prevent unauthorized access misuse and forgery and it should also provide confidentiality integrity and availability I hope now you are clear with all the basic characteristics of a computer network a fault tolerant Network a scalable network the quality of service and security thank you for watching we shall meet again in the upcoming lectures [Applause] [Music] "
+}

@@ -1,0 +1,280 @@
+{
+    "video_id": "EBTP0mpCGBM",
+    "video_title": "Components of a Computer Network",
+    "chunks": [
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 0.0,
+            "end": 12.92,
+            "video_title": "Components of a Computer Network",
+            "text": "Hello everyone, welcome back to the\ncomputer networks course. And today we will see the various\ncomponents of a computer network. Upon the completion\nof this session, we will be able to\nunderstand nodes,"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 12.92,
+            "end": 27.16,
+            "video_title": "Components of a Computer Network",
+            "text": "we will also understand what are the different\nmedia in computer network, and what are the various services\noffered by computer network. Any computer network\nhas three components Nodes, Media and Services."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 27.92,
+            "end": 44.68,
+            "video_title": "Components of a Computer Network",
+            "text": "Firstly we will deal with nodes. We have already seen nodes\nin detail in the previous lectures. A node can send or receive or\nboth send and receive the data. And these nodes can be an end\nnode or an intermediary node. We can call end nodes as end devices"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 44.68,
+            "end": 56.900000000000006,
+            "video_title": "Components of a Computer Network",
+            "text": "and intermediary nodes\nas intermediary devices. We will first see end nodes. End nodes are the nodes\nthat is going to be the starting point in\nthe communication or the end point\nin the communication."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 56.9,
+            "end": 71.0,
+            "video_title": "Components of a Computer Network",
+            "text": "If two devices wants to\ncommunicate with each other, the device which initiates\nthis communication is an end device and the device\nwhich accepts the communication at the final stage is an end device. And these two end devices\nare going to communicate"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 71.0,
+            "end": 87.94,
+            "video_title": "Components of a Computer Network",
+            "text": "with each other with the help\nof some intermediary devices. Let's first see some\nexamples for end devices. A computer is an end\ndevice, network printers, voice-over IP Phones,\ntelepresence endpoint (this is mainly for video\nconferencing), security cameras"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 87.94,
+            "end": 100.52,
+            "video_title": "Components of a Computer Network",
+            "text": "and many mobile\nhandheld devices like smart-phones, tablets,\npersonal digital assistants, wireless debit or credit card reader, bar-code scanner and many more. We are done with end nodes."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 101.28,
+            "end": 115.88000000000001,
+            "video_title": "Components of a Computer Network",
+            "text": "Now we will see some\nexamples for intermediary nodes. Intermediary nodes are nodes\nthat just forwards the data from one node to another. In other words, they are going\nto be placed in between end nodes. switches, wireless access points,"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 115.88,
+            "end": 132.76,
+            "video_title": "Components of a Computer Network",
+            "text": "routers, security devices like firewall, bridges, hubs, repeaters,\ncell phone tower, etc. If you feel any of these\nterms are new, no worries we are going to deal elaborately about all the terms in detail\nin the upcoming lectures."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 133.58,
+            "end": 148.60000000000002,
+            "video_title": "Components of a Computer Network",
+            "text": "There are lot of end devices and intermediary devices\ninvolved in the scenario. These devices: smart phone,\nVoice-over IP phone, printers, these desktop computers,\ntablet and web servers -- these are all end devices."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 148.6,
+            "end": 165.62,
+            "video_title": "Components of a Computer Network",
+            "text": "Switches, cell phone towers,\nthis wireless router, these routers and this switch,\nthey are intermediary devices. We are done with nodes.\nNow we will move on to the media. Media -- It is also called as the link. We know very well that,\nlink is going to carry"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 165.62,
+            "end": 178.70000000000002,
+            "video_title": "Components of a Computer Network",
+            "text": "the data from one side to the other. This link or this media can be a wired medium or a wireless medium. Some authors refer wired\nmedium as guided medium and wireless medium as unguided medium."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 179.16,
+            "end": 194.42,
+            "video_title": "Components of a Computer Network",
+            "text": "In wired medium, there will be\na cable that connects two nodes whereas in a wireless medium,\ncable will not be present. Since cables are used to\nguide the data flow, we call wired medium\nas guided medium whereas there is no cable\nin a wireless medium"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 194.42,
+            "end": 210.73999999999998,
+            "video_title": "Components of a Computer Network",
+            "text": "and that is why we call wireless\nmedium to be unguided medium. We will see some examples for wired medium and wireless medium. The examples for wired\nmedium are ethernet cables, fiber optic cable, coaxial\ncable and USB cable."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 210.74,
+            "end": 225.23999999999998,
+            "video_title": "Components of a Computer Network",
+            "text": "We will see each of\nthese cables in detail now. Firstly, ethernet cable. This is an example\nof an ethernet cable. Ethernet cable is an example\nof a twisted-pair cable. I will talk about twisted-pair\ncable in the upcoming lectures."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 225.24,
+            "end": 237.12,
+            "video_title": "Components of a Computer Network",
+            "text": "For time bring, you just\nknow this is an ethernet cable and this ethernet cable\ncomes in two variations: one is ethernet straight-through cable and ethernet crossover table. We will see the difference between this"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 237.12,
+            "end": 251.07999999999998,
+            "video_title": "Components of a Computer Network",
+            "text": "ethernet straight-through cable\nand ethernet crossover cable. If we want to connect\ndifferent devices, we have to go for ethernet \nstraight-through cable. In case if we want to connect\ntwo devices of same kind, say two switches or two routers,"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 251.08,
+            "end": 263.92,
+            "video_title": "Components of a Computer Network",
+            "text": "or two computers wants to\nbe connected to each other, then we have to go\nfor ethernet cross-over. In ethernet cable the data\nis going to be carried in terms of electrical signals. So far we have seen ethernet\nstraight-through cable"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 263.92,
+            "end": 276.23999999999995,
+            "video_title": "Components of a Computer Network",
+            "text": "and ethernet crossover cable. Now we will move onto\nfiber optic cable. In fiber optic cable, the data is going to be carried in the\nform of light waves. We know very well that light\nis the fastest one in the world."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 276.24,
+            "end": 292.96,
+            "video_title": "Components of a Computer Network",
+            "text": "Since this cable takes the data\nin the form of light waves, this is the fastest mode\nof wired communication. Now we will see coaxial cable. This is an example coaxial cable. This cable is mainly used for\naudio or video communication."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 292.96,
+            "end": 311.98,
+            "video_title": "Components of a Computer Network",
+            "text": "We can see this cable in our home. If you have a set-top box,\njust go and see this coaxial cable which connects the dish antenna\nand the set-top box. This cable also carries the data\nin the form of electrical signals. And coming to USB cable,\nUSB stands for Universal Serial Bus."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 311.98,
+            "end": 327.42,
+            "video_title": "Components of a Computer Network",
+            "text": "This cable is used to connect\na computer and a smart phone. We know very well if we want\nto connect our computer to a smart phone, most of us\nwill prefer this cable only. And we are done with wired medium. Now we will move onto wireless media."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 327.42,
+            "end": 345.12,
+            "video_title": "Components of a Computer Network",
+            "text": "In wireless media, two or more\ndevices are going to communicate with each other but without\nthe help of a cable. Here, air is the medium that carries\nthe data from one node to other. In wired networks, the data\nare converted into signals, maybe electrical signals\nor light signals."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 345.12,
+            "end": 363.04,
+            "video_title": "Components of a Computer Network",
+            "text": "Whereas in wireless network\ndata are converted into waves. Coming to the wireless media,\nwe have infrared waves, radio waves, microwaves \nand Satellite waves. Infrared waves are mainly used\nfor short range of communication. Example: TV remote control."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 363.04,
+            "end": 377.14,
+            "video_title": "Components of a Computer Network",
+            "text": "The wave between the remote control and the television is\nan infrared wave. And if the distance between the TV\nand the remote control increases, this communication cannot happen. Because infrared are used\nfor short range communication."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 377.14,
+            "end": 395.21999999999997,
+            "video_title": "Components of a Computer Network",
+            "text": "Coming to the radio wave,\nthe range of this radio wave is higher than infrared. \nBluetooth and Wi-Fi uses radio waves. The next one is the microwaves.\nExample: Cellular system. Our cell phone technology uses microwaves. Microwaves are used for\nlong distance communication"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 395.22,
+            "end": 411.34000000000003,
+            "video_title": "Components of a Computer Network",
+            "text": "when compared to radio\nwaves or infrared waves.  And finally, the satellite communication. And this is ultimately\nthe long distance communication. Our GPS enabled cell phone\ngives signal to the satellite and the location of this device is\nidentified with the help of this signal."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 412.34,
+            "end": 427.92,
+            "video_title": "Components of a Computer Network",
+            "text": "So far we have seen,\nnodes and media. Two types of media\nare addressed: wired media and wireless media. This scenario involves both\nwired media and wireless media. This straight lines represents\nethernet straight-through."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 427.92,
+            "end": 441.98,
+            "video_title": "Components of a Computer Network",
+            "text": "Just recall what are\nethernet straight-through cables. Say a computer with a switch,\na switch with a printer, a switch with a router or wireless router. But ethernet crossover cables are used to connect devices of similar type."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 441.98,
+            "end": 456.48,
+            "video_title": "Components of a Computer Network",
+            "text": "Between routers we use only\nstraight-through cables. Straight lines are ethernet\nstraight-through cables, and dashed lines are crossover cables. So this is an example for a wired media. At the same time our example\nalso uses wireless media."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 456.48,
+            "end": 470.3,
+            "video_title": "Components of a Computer Network",
+            "text": "In this case, between smart phone\nand cell phone tower wireless technology is used, between smart phone\nand wireless router, between tablet and wireless router\nwe have wireless technologies. To be specific, here\nmicrowaves are used"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 470.3,
+            "end": 483.08000000000004,
+            "video_title": "Components of a Computer Network",
+            "text": "because this is a long\ndistance communication. And here radio waves are used, because this is a Wi-Fi\nrouter and smart device. So this is a longer\ndistance communication when compared to this communication."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 483.98,
+            "end": 499.04,
+            "video_title": "Components of a Computer Network",
+            "text": "We will now see the third component\nof a computer network, services. We use computer network for\nsending mails or receiving mails, storing our data in\na remote computer. Google Drive is an example for storage. We can share files using computer network,"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 499.04,
+            "end": 517.66,
+            "video_title": "Components of a Computer Network",
+            "text": "we can send instant messages like\nwhats-app using computer network, we can play online games\nusing computer networks, we can make voice calls\nusing voice-over IP, we can also do video calls or video\nconferencing using video telephony, and we can also use computer\nnetwork for surfing internet"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 517.66,
+            "end": 530.74,
+            "video_title": "Components of a Computer Network",
+            "text": "that is accessing\nwebsites. We have already seen\nabout nodes and media and the last part here\nis the services. This scenario involves\nmany kinds of services. Suppose if this guy is\nsending some message"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 530.74,
+            "end": 547.22,
+            "video_title": "Components of a Computer Network",
+            "text": "to his friend through whatsapp.\nSo it uses instant messaging. And two people are talking\nover voice-over phone, so here voice communication is happening. So,voice communication is one of\nthe services of computer network. If somebody is accessing amazon.com,"
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 547.22,
+            "end": 562.74,
+            "video_title": "Components of a Computer Network",
+            "text": "so he using www that is the\nworld wide web services. And there is a file here,\nif this computer wants this file, it uses this computer network\nfor getting that file. So, file sharing is another\nservice depicted in this scenario. And that's it guys."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 562.74,
+            "end": 579.1800000000001,
+            "video_title": "Components of a Computer Network",
+            "text": "We have seen nodes,\nmedia and services. I hope now you are clear with nodes, different media -- wired media and wireless media and various services\nlike E-mail, instant messaging, file sharing, world wide web,\nvoice-over IP etc."
+        },
+        {
+            "video_id": "EBTP0mpCGBM",
+            "start": 580.42,
+            "end": 583.46,
+            "video_title": "Components of a Computer Network",
+            "text": "I hope the session is informative. Thank you for watching."
+        }
+    ],
+    "text": "Hello everyone, welcome back to the\ncomputer networks course. And today we will see the various\ncomponents of a computer network. Upon the completion\nof this session, we will be able to\nunderstand nodes, we will also understand what are the different\nmedia in computer network, and what are the various services\noffered by computer network. Any computer network\nhas three components Nodes, Media and Services. Firstly we will deal with nodes. We have already seen nodes\nin detail in the previous lectures. A node can send or receive or\nboth send and receive the data. And these nodes can be an end\nnode or an intermediary node. We can call end nodes as end devices and intermediary nodes\nas intermediary devices. We will first see end nodes. End nodes are the nodes\nthat is going to be the starting point in\nthe communication or the end point\nin the communication. If two devices wants to\ncommunicate with each other, the device which initiates\nthis communication is an end device and the device\nwhich accepts the communication at the final stage is an end device. And these two end devices\nare going to communicate with each other with the help\nof some intermediary devices. Let's first see some\nexamples for end devices. A computer is an end\ndevice, network printers, voice-over IP Phones,\ntelepresence endpoint (this is mainly for video\nconferencing), security cameras and many mobile\nhandheld devices like smart-phones, tablets,\npersonal digital assistants, wireless debit or credit card reader, bar-code scanner and many more. We are done with end nodes. Now we will see some\nexamples for intermediary nodes. Intermediary nodes are nodes\nthat just forwards the data from one node to another. In other words, they are going\nto be placed in between end nodes. switches, wireless access points, routers, security devices like firewall, bridges, hubs, repeaters,\ncell phone tower, etc. If you feel any of these\nterms are new, no worries we are going to deal elaborately about all the terms in detail\nin the upcoming lectures. There are lot of end devices and intermediary devices\ninvolved in the scenario. These devices: smart phone,\nVoice-over IP phone, printers, these desktop computers,\ntablet and web servers -- these are all end devices. Switches, cell phone towers,\nthis wireless router, these routers and this switch,\nthey are intermediary devices. We are done with nodes.\nNow we will move on to the media. Media -- It is also called as the link. We know very well that,\nlink is going to carry the data from one side to the other. This link or this media can be a wired medium or a wireless medium. Some authors refer wired\nmedium as guided medium and wireless medium as unguided medium. In wired medium, there will be\na cable that connects two nodes whereas in a wireless medium,\ncable will not be present. Since cables are used to\nguide the data flow, we call wired medium\nas guided medium whereas there is no cable\nin a wireless medium and that is why we call wireless\nmedium to be unguided medium. We will see some examples for wired medium and wireless medium. The examples for wired\nmedium are ethernet cables, fiber optic cable, coaxial\ncable and USB cable. We will see each of\nthese cables in detail now. Firstly, ethernet cable. This is an example\nof an ethernet cable. Ethernet cable is an example\nof a twisted-pair cable. I will talk about twisted-pair\ncable in the upcoming lectures. For time bring, you just\nknow this is an ethernet cable and this ethernet cable\ncomes in two variations: one is ethernet straight-through cable and ethernet crossover table. We will see the difference between this ethernet straight-through cable\nand ethernet crossover cable. If we want to connect\ndifferent devices, we have to go for ethernet \nstraight-through cable. In case if we want to connect\ntwo devices of same kind, say two switches or two routers, or two computers wants to\nbe connected to each other, then we have to go\nfor ethernet cross-over. In ethernet cable the data\nis going to be carried in terms of electrical signals. So far we have seen ethernet\nstraight-through cable and ethernet crossover cable. Now we will move onto\nfiber optic cable. In fiber optic cable, the data is going to be carried in the\nform of light waves. We know very well that light\nis the fastest one in the world. Since this cable takes the data\nin the form of light waves, this is the fastest mode\nof wired communication. Now we will see coaxial cable. This is an example coaxial cable. This cable is mainly used for\naudio or video communication. We can see this cable in our home. If you have a set-top box,\njust go and see this coaxial cable which connects the dish antenna\nand the set-top box. This cable also carries the data\nin the form of electrical signals. And coming to USB cable,\nUSB stands for Universal Serial Bus. This cable is used to connect\na computer and a smart phone. We know very well if we want\nto connect our computer to a smart phone, most of us\nwill prefer this cable only. And we are done with wired medium. Now we will move onto wireless media. In wireless media, two or more\ndevices are going to communicate with each other but without\nthe help of a cable. Here, air is the medium that carries\nthe data from one node to other. In wired networks, the data\nare converted into signals, maybe electrical signals\nor light signals. Whereas in wireless network\ndata are converted into waves. Coming to the wireless media,\nwe have infrared waves, radio waves, microwaves \nand Satellite waves. Infrared waves are mainly used\nfor short range of communication. Example: TV remote control. The wave between the remote control and the television is\nan infrared wave. And if the distance between the TV\nand the remote control increases, this communication cannot happen. Because infrared are used\nfor short range communication. Coming to the radio wave,\nthe range of this radio wave is higher than infrared. \nBluetooth and Wi-Fi uses radio waves. The next one is the microwaves.\nExample: Cellular system. Our cell phone technology uses microwaves. Microwaves are used for\nlong distance communication when compared to radio\nwaves or infrared waves.  And finally, the satellite communication. And this is ultimately\nthe long distance communication. Our GPS enabled cell phone\ngives signal to the satellite and the location of this device is\nidentified with the help of this signal. So far we have seen,\nnodes and media. Two types of media\nare addressed: wired media and wireless media. This scenario involves both\nwired media and wireless media. This straight lines represents\nethernet straight-through. Just recall what are\nethernet straight-through cables. Say a computer with a switch,\na switch with a printer, a switch with a router or wireless router. But ethernet crossover cables are used to connect devices of similar type. Between routers we use only\nstraight-through cables. Straight lines are ethernet\nstraight-through cables, and dashed lines are crossover cables. So this is an example for a wired media. At the same time our example\nalso uses wireless media. In this case, between smart phone\nand cell phone tower wireless technology is used, between smart phone\nand wireless router, between tablet and wireless router\nwe have wireless technologies. To be specific, here\nmicrowaves are used because this is a long\ndistance communication. And here radio waves are used, because this is a Wi-Fi\nrouter and smart device. So this is a longer\ndistance communication when compared to this communication. We will now see the third component\nof a computer network, services. We use computer network for\nsending mails or receiving mails, storing our data in\na remote computer. Google Drive is an example for storage. We can share files using computer network, we can send instant messages like\nwhats-app using computer network, we can play online games\nusing computer networks, we can make voice calls\nusing voice-over IP, we can also do video calls or video\nconferencing using video telephony, and we can also use computer\nnetwork for surfing internet that is accessing\nwebsites. We have already seen\nabout nodes and media and the last part here\nis the services. This scenario involves\nmany kinds of services. Suppose if this guy is\nsending some message to his friend through whatsapp.\nSo it uses instant messaging. And two people are talking\nover voice-over phone, so here voice communication is happening. So,voice communication is one of\nthe services of computer network. If somebody is accessing amazon.com, so he using www that is the\nworld wide web services. And there is a file here,\nif this computer wants this file, it uses this computer network\nfor getting that file. So, file sharing is another\nservice depicted in this scenario. And that's it guys. We have seen nodes,\nmedia and services. I hope now you are clear with nodes, different media -- wired media and wireless media and various services\nlike E-mail, instant messaging, file sharing, world wide web,\nvoice-over IP etc. I hope the session is informative. Thank you for watching. "
+}

@@ -1,0 +1,259 @@
+{
+    "video_id": "Kx6i9gwNS3w",
+    "video_title": "Basics of IP Addressing",
+    "chunks": [
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 0.06,
+            "end": 14.07,
+            "video_title": "Basics of IP Addressing",
+            "text": "hello everyone welcome to the next lecture in the computer Network series and today we will see the basics of IP addressing now we will see the outcomes of this session upon the completion of"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 13.349,
+            "end": 28.108999999999998,
+            "video_title": "Basics of IP Addressing",
+            "text": "this session the learner will be able to understand the basics of IP addressing we will also come to know how to see the IP address in real device and we will also identify"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 24.68,
+            "end": 42.6,
+            "video_title": "Basics of IP Addressing",
+            "text": "valid and invalid IP addresses now we will move on to the definition of an IP address IP address IP stands for Internet Protocol IP is an important part in the Internet and every node in"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 40.05,
+            "end": 56.339999999999996,
+            "video_title": "Basics of IP Addressing",
+            "text": "the computer network is identified with the help of IP address only we will see an example first and then we will come to the definition again this example involves lot of end devices and lot of"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 53.1,
+            "end": 72.68900000000001,
+            "video_title": "Basics of IP Addressing",
+            "text": "intermediary devices now there is a computer and this computer wants to same some data to this computer it means the computer with the IP address one 72.1 5.1 50.2 is going to"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 67.439,
+            "end": 87.14999999999999,
+            "video_title": "Basics of IP Addressing",
+            "text": "send some data to 192.168.1 50.2 so this is what we call as an IP address because every node in the computer network is identified with the help of IP address only now we will see more about IP"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 83.549,
+            "end": 100.619,
+            "video_title": "Basics of IP Addressing",
+            "text": "address when I say IP address there are two variations ipv4 address and ipv6 address in this computer network series we will be learning about both ipv4 and ipv6 elaborately in the upcoming"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 98.22,
+            "end": 113.909,
+            "video_title": "Basics of IP Addressing",
+            "text": "lectures for time being now we will focus on ipv4 address we already know every node in the computer network is identified with the help of IP address only and they are logical address to let"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 111.479,
+            "end": 125.46,
+            "video_title": "Basics of IP Addressing",
+            "text": "me explain what is a logical address if you take this scenario this is a local area network which is in New Delhi and this is another local area network this is in Chennai suppose if I"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 123.329,
+            "end": 135.47,
+            "video_title": "Basics of IP Addressing",
+            "text": "take this computer and if I place this computer in the local area network of Chennai and I want this newcomer to participate in the local area network which is in Chennai"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 133.28,
+            "end": 150.32000000000002,
+            "video_title": "Basics of IP Addressing",
+            "text": "I can simply remove this IP address and I can assign an IP address in this range for example this computer is assigned with 192 168 1 50 dot 2 and this is with 150 dot 3 and this is with 150 dot 4 so"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 148.34,
+            "end": 162.44000000000003,
+            "video_title": "Basics of IP Addressing",
+            "text": "what I can give I can take this computer and I can place it here and I can assign it as one ninety two dot one sixty eight dot one fifty dot fine and thereby we can make this newcomer to participate in"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 160.07,
+            "end": 175.60999999999999,
+            "video_title": "Basics of IP Addressing",
+            "text": "the local area network since this IP addresses can be changed based on the logic or the location we call IP addresses as logical address and that is what I have mentioned here so IP"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 172.79,
+            "end": 189.02,
+            "video_title": "Basics of IP Addressing",
+            "text": "addresses are logical addresses because we can change the IP address based on the location of the device and we can assign this IP address manually or even dynamically we will talk about this"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 186.44,
+            "end": 204.38,
+            "video_title": "Basics of IP Addressing",
+            "text": "point in the network layer part time being you just understand IP addresses can be assigned manually or even dynamically and ipv4 addresses are represented in decimal and it has four"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 200.45,
+            "end": 225.739,
+            "video_title": "Basics of IP Addressing",
+            "text": "octaves it means four parts say X dot X dot X dot X and each of this X takes a value between 0 and 255 so this X can be between 0 and 255 likewise all the X can be between 0 and 255 so the starting IP"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 219.62,
+            "end": 239.10999999999999,
+            "video_title": "Basics of IP Addressing",
+            "text": "address will be 0.0.0.0 to 255.255.255.0 5 and the total number of bits in every IP address will be 32 bits we will now see how to see an IP address in real device"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 236.62,
+            "end": 251.65,
+            "video_title": "Basics of IP Addressing",
+            "text": "to view the IP address in real device click the Start menu type CMD and give Enter when you give CMD and press Enter you will be given up with the command"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 249.04,
+            "end": 262.90000000000003,
+            "video_title": "Basics of IP Addressing",
+            "text": "prompt this is the command prompt of the Windows operating system that I am using and it can execute all the commands whatever I give here I am intended to find the IP address of this computer to"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 261.01,
+            "end": 276.04,
+            "video_title": "Basics of IP Addressing",
+            "text": "know the IP address of this computer I have to give the command ipconfig when I give IP config in the command prompt it gives the IP address of this computer if you observe I am NOT using Ethernet"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 273.58,
+            "end": 288.91,
+            "video_title": "Basics of IP Addressing",
+            "text": "based local area network because I have connected my computer using Wi-Fi and that is why it is showing wireless LAN with certain properties if you observe here ipv4 address is shown and this is"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 286.27,
+            "end": 304.09,
+            "video_title": "Basics of IP Addressing",
+            "text": "the IP address of this computer and any data goes from this computer uses this as type IP address for identification purpose so the IP address of this computer is 192.168.1.1 7/3"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 301.479,
+            "end": 316.75,
+            "video_title": "Basics of IP Addressing",
+            "text": "so far we have seen how to see IP address in real device there is an interesting activity for you we are required to identify the valid and invalid IP addresses in the following"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 314.05,
+            "end": 328.57,
+            "video_title": "Basics of IP Addressing",
+            "text": "set so set of IP addresses are given and we are required to identify valid and invalid IP addresses and place the options in the appropriate columns and there are two columns given one is the"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 326.47,
+            "end": 342.19,
+            "video_title": "Basics of IP Addressing",
+            "text": "column for valid IP addresses another one is for invalid IP addresses suppose if you find yes a valid IP address mark it as yeah here and if you find B is an invalid IP address mark B here and you"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 340.27,
+            "end": 356.16900000000004,
+            "video_title": "Basics of IP Addressing",
+            "text": "should know why they are valid and why they are invalid please pause this video for a while and make a note of this answer against the column if you are done compare your answer with the answer"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 353.74,
+            "end": 370.03,
+            "video_title": "Basics of IP Addressing",
+            "text": "that I am depicting so the valid IP addresses are AC and D and the invalid IP addresses are B and F now we will see why they are valid and why these are invalid ya is a valid IP address because"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 367.36,
+            "end": 386.26,
+            "video_title": "Basics of IP Addressing",
+            "text": "it should have four octaves and of course this is having four updates one two three and four and each octet is between zero and 255 yes yes a valid IP address and B is not a valid IP address"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 383.05,
+            "end": 402.84999999999997,
+            "video_title": "Basics of IP Addressing",
+            "text": "though it has four octets one two three and four fourth octet is invalid because any octet should be between 0 and 255 so 256 is not a valid entry so B is invalid coming to see it is a valid IP address"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 400.45,
+            "end": 420.49,
+            "video_title": "Basics of IP Addressing",
+            "text": "because each octet can be between 0 and 255 so C is valid and B is valid why because B is also the last IP address of the ipv4 address it and each octet is between 0 and 255 so Z is valid"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 416.52,
+            "end": 435.67,
+            "video_title": "Basics of IP Addressing",
+            "text": "if you observe E is an invalid IP address because it has 1 2 3 4 and 5 others at the same time if you observe this octet this is greater than 255 so E is invalid for two reasons number one it"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 433.15,
+            "end": 450.48999999999995,
+            "video_title": "Basics of IP Addressing",
+            "text": "has five octaves and number two the range in the octet is not appropriate so it should be between 0 and 255 but we can see there are 345 and 456 and these values are not between 0 and 255 coming"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 447.91,
+            "end": 464.38,
+            "video_title": "Basics of IP Addressing",
+            "text": "to the option yes this is an invalid IP address why because there is an octet with to e we know very well that ipv4 addresses must be in decimal even if he is an accessible character but that is"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 461.5,
+            "end": 478.24,
+            "video_title": "Basics of IP Addressing",
+            "text": "not valid here because any IP address in ipv4 it should be in decimal only so f is also not valid I hope the session will be helpful to understand what are valid IP addresses and what are invalid"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 474.85,
+            "end": 493.11,
+            "video_title": "Basics of IP Addressing",
+            "text": "IP addresses that's it guys I hope now you understood the basics of IP addressing you will also know how to see IP address in real device and we will be able to identify valid and invalid IP"
+        },
+        {
+            "video_id": "Kx6i9gwNS3w",
+            "start": 488.02,
+            "end": 505.34999999999997,
+            "video_title": "Basics of IP Addressing",
+            "text": "addresses thank you guys for watching [Music]"
+        }
+    ],
+    "text": "hello everyone welcome to the next lecture in the computer Network series and today we will see the basics of IP addressing now we will see the outcomes of this session upon the completion of this session the learner will be able to understand the basics of IP addressing we will also come to know how to see the IP address in real device and we will also identify valid and invalid IP addresses now we will move on to the definition of an IP address IP address IP stands for Internet Protocol IP is an important part in the Internet and every node in the computer network is identified with the help of IP address only we will see an example first and then we will come to the definition again this example involves lot of end devices and lot of intermediary devices now there is a computer and this computer wants to same some data to this computer it means the computer with the IP address one 72.1 5.1 50.2 is going to send some data to 192.168.1 50.2 so this is what we call as an IP address because every node in the computer network is identified with the help of IP address only now we will see more about IP address when I say IP address there are two variations ipv4 address and ipv6 address in this computer network series we will be learning about both ipv4 and ipv6 elaborately in the upcoming lectures for time being now we will focus on ipv4 address we already know every node in the computer network is identified with the help of IP address only and they are logical address to let me explain what is a logical address if you take this scenario this is a local area network which is in New Delhi and this is another local area network this is in Chennai suppose if I take this computer and if I place this computer in the local area network of Chennai and I want this newcomer to participate in the local area network which is in Chennai I can simply remove this IP address and I can assign an IP address in this range for example this computer is assigned with 192 168 1 50 dot 2 and this is with 150 dot 3 and this is with 150 dot 4 so what I can give I can take this computer and I can place it here and I can assign it as one ninety two dot one sixty eight dot one fifty dot fine and thereby we can make this newcomer to participate in the local area network since this IP addresses can be changed based on the logic or the location we call IP addresses as logical address and that is what I have mentioned here so IP addresses are logical addresses because we can change the IP address based on the location of the device and we can assign this IP address manually or even dynamically we will talk about this point in the network layer part time being you just understand IP addresses can be assigned manually or even dynamically and ipv4 addresses are represented in decimal and it has four octaves it means four parts say X dot X dot X dot X and each of this X takes a value between 0 and 255 so this X can be between 0 and 255 likewise all the X can be between 0 and 255 so the starting IP address will be 0.0.0.0 to 255.255.255.0 5 and the total number of bits in every IP address will be 32 bits we will now see how to see an IP address in real device to view the IP address in real device click the Start menu type CMD and give Enter when you give CMD and press Enter you will be given up with the command prompt this is the command prompt of the Windows operating system that I am using and it can execute all the commands whatever I give here I am intended to find the IP address of this computer to know the IP address of this computer I have to give the command ipconfig when I give IP config in the command prompt it gives the IP address of this computer if you observe I am NOT using Ethernet based local area network because I have connected my computer using Wi-Fi and that is why it is showing wireless LAN with certain properties if you observe here ipv4 address is shown and this is the IP address of this computer and any data goes from this computer uses this as type IP address for identification purpose so the IP address of this computer is 192.168.1.1 7/3 so far we have seen how to see IP address in real device there is an interesting activity for you we are required to identify the valid and invalid IP addresses in the following set so set of IP addresses are given and we are required to identify valid and invalid IP addresses and place the options in the appropriate columns and there are two columns given one is the column for valid IP addresses another one is for invalid IP addresses suppose if you find yes a valid IP address mark it as yeah here and if you find B is an invalid IP address mark B here and you should know why they are valid and why they are invalid please pause this video for a while and make a note of this answer against the column if you are done compare your answer with the answer that I am depicting so the valid IP addresses are AC and D and the invalid IP addresses are B and F now we will see why they are valid and why these are invalid ya is a valid IP address because it should have four octaves and of course this is having four updates one two three and four and each octet is between zero and 255 yes yes a valid IP address and B is not a valid IP address though it has four octets one two three and four fourth octet is invalid because any octet should be between 0 and 255 so 256 is not a valid entry so B is invalid coming to see it is a valid IP address because each octet can be between 0 and 255 so C is valid and B is valid why because B is also the last IP address of the ipv4 address it and each octet is between 0 and 255 so Z is valid if you observe E is an invalid IP address because it has 1 2 3 4 and 5 others at the same time if you observe this octet this is greater than 255 so E is invalid for two reasons number one it has five octaves and number two the range in the octet is not appropriate so it should be between 0 and 255 but we can see there are 345 and 456 and these values are not between 0 and 255 coming to the option yes this is an invalid IP address why because there is an octet with to e we know very well that ipv4 addresses must be in decimal even if he is an accessible character but that is not valid here because any IP address in ipv4 it should be in decimal only so f is also not valid I hope the session will be helpful to understand what are valid IP addresses and what are invalid IP addresses that's it guys I hope now you understood the basics of IP addressing you will also know how to see IP address in real device and we will be able to identify valid and invalid IP addresses thank you guys for watching [Music] "
+}

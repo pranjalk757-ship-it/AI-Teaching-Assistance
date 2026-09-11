@@ -1,0 +1,343 @@
+{
+    "video_id": "VwN91x5i25g",
+    "video_title": "Introduction to Computer Networks",
+    "chunks": [
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 0.0,
+            "end": 12.179000000000002,
+            "video_title": "Introduction to Computer Networks",
+            "text": "hello everyone I welcome you all to this wonderful course on computer networks I am your instructor here to take you throughout this journey on computer networks before we start let's figure"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 10.23,
+            "end": 22.98,
+            "video_title": "Introduction to Computer Networks",
+            "text": "out to whom this course is actually intended to this course is mainly for the undergraduate students and this course is useful for the students who are preparing for their gate exams and"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 20.31,
+            "end": 33.329,
+            "video_title": "Introduction to Computer Networks",
+            "text": "not only gate exams this course will surely help the students to crack networking based interviews this course can be a prerequisite course to CCNE international certification course and"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 30.84,
+            "end": 44.120000000000005,
+            "video_title": "Introduction to Computer Networks",
+            "text": "if you want to demystify all the networking technologies and jargons used in the networking field this course will surely fulfill your expectation in a nutshell this course will surely quench"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 41.91,
+            "end": 55.5,
+            "video_title": "Introduction to Computer Networks",
+            "text": "the thirst of computer networking and coming to the scope of this course trust me guys networking is everywhere because Network supports the way we learn network supports the way we communicate"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 53.149,
+            "end": 65.88,
+            "video_title": "Introduction to Computer Networks",
+            "text": "network supports the way we work and the way we play I shall explain you how Network supports the way we learn I am the instructor of this course and I am teaching in one part of the world and"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 64.14,
+            "end": 76.14,
+            "video_title": "Introduction to Computer Networks",
+            "text": "the learners are in different parts of the world still teaching and learning is happening very seamlessly and that's the power of networking and network supports the way we communicate think of a"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 74.28,
+            "end": 88.68,
+            "video_title": "Introduction to Computer Networks",
+            "text": "traditional landline phone communication we used to send only her voice data but now the communication pattern has entirely changed think of an example mobile application what's up we are able"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 85.11,
+            "end": 101.46,
+            "video_title": "Introduction to Computer Networks",
+            "text": "to send text images animations videos audios and even voice calls and video calls which are real-time communication we are able to do all this communication seamlessly and perfectly with the help"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 99.06,
+            "end": 113.84,
+            "video_title": "Introduction to Computer Networks",
+            "text": "of computer networks isn't the computer network awesome guys Network supports the very work yes one can work from home by accessing the files and softwares actually available in the company and"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 111.03,
+            "end": 125.64,
+            "video_title": "Introduction to Computer Networks",
+            "text": "network supports the way we played to talking about the pedagogy we need to understand the theoretical background of all the concepts hence we go with the traditional lecturing methods and the"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 122.579,
+            "end": 135.72,
+            "video_title": "Introduction to Computer Networks",
+            "text": "contemporary lecturing methods as I already mentioned you that we will be solving many gate examination related problems here in this course and to understand the things practically world"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 133.83,
+            "end": 147.96,
+            "video_title": "Introduction to Computer Networks",
+            "text": "one of the most powerful simulation and learning tools the Cisco packet tracer is used in talking about the syllabi in the first face of the computer networking course the fundamentals are"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 144.78,
+            "end": 159.39,
+            "video_title": "Introduction to Computer Networks",
+            "text": "dealt elaborately actually computer networks follow slaying to send data from one computer to another and each layer is addressed separately as a separate chapters and it is dealt in a"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 156.84,
+            "end": 170.4,
+            "video_title": "Introduction to Computer Networks",
+            "text": "very detailed manner and security is very important not only in real life even for computer networks too and the last phase of the computer network will cover the need for security and how"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 168.36,
+            "end": 181.05,
+            "video_title": "Introduction to Computer Networks",
+            "text": "security is provided in computer networks now let's talk about the outcomes of today's lecture upon the completion of this lecture the learner will be able to understand what is"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 178.95,
+            "end": 193.83,
+            "video_title": "Introduction to Computer Networks",
+            "text": "computer network and they will be able to identify n devices and intermediary devices if the scenario is given we'll start with the definition of a computer network a computer network is a set of"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 191.28,
+            "end": 204.78,
+            "video_title": "Introduction to Computer Networks",
+            "text": "nodes connected by communication links I repeat a computer network is a set of nodes connected by communication links to understand this definition I shall highlight the important words"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 203.28,
+            "end": 218.7,
+            "video_title": "Introduction to Computer Networks",
+            "text": "they are the key words of this definition the key words are nodes and communication links firstly we'll concentrate on nodes a node can be a computer printer or any other device"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 215.88,
+            "end": 232.58999999999997,
+            "video_title": "Introduction to Computer Networks",
+            "text": "capable of sending or receiving data say you have a device if the device can send data or receive data or both send and receive data then we can call that devices and node so a node can be a"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 229.41,
+            "end": 244.68,
+            "video_title": "Introduction to Computer Networks",
+            "text": "computer printer or any device but the important point to note here is that device should be capable enough in sending or receiving the data we shall see some examples for nodes obviously a"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 242.55,
+            "end": 257.97,
+            "video_title": "Introduction to Computer Networks",
+            "text": "computer is a node because a computer can send data as well as receive data a server printer security camera and many devices like switches bridges and routers are also called as nodes we will"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 255.959,
+            "end": 270.21,
+            "video_title": "Introduction to Computer Networks",
+            "text": "be dealing about switches bridges and routers in the upcoming lectures now we are done with nodes we'll concentrate on what are communication links a communication link can be a wired link"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 267.66,
+            "end": 281.79,
+            "video_title": "Introduction to Computer Networks",
+            "text": "wireless link the important point to note about the link is that this link only carries the information if you don't understand anything out of this just wait for this example see this"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 279.09,
+            "end": 292.56,
+            "video_title": "Introduction to Computer Networks",
+            "text": "example now there are two computers we can call these two computers as knows why because these two computers can send data as well as receive data now these nodes are going to exchange their"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 290.52,
+            "end": 304.29,
+            "video_title": "Introduction to Computer Networks",
+            "text": "information but for exchanging the information they are depending upon this cable where this cable is still linked now obviously a cable is a physical medium so it comes under wired category"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 301.5,
+            "end": 315.87,
+            "video_title": "Introduction to Computer Networks",
+            "text": "so wired link carries the information from this computer to this computer or vice versa but there are scenarios where two devices wants to communicate with each other but not with the help of"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 313.26,
+            "end": 326.58,
+            "video_title": "Introduction to Computer Networks",
+            "text": "cables set in the scenario these two smartphones wants to exchange data say this phone wants to give some data to this phone in this case there is no physical connectivity then how can be"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 324.45,
+            "end": 339.15,
+            "video_title": "Introduction to Computer Networks",
+            "text": "that communication be established this is possible through wireless technologies if that is the case who is going to carry the signals obviously air is going to carry the data so here ad is"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 336.48,
+            "end": 350.43,
+            "video_title": "Introduction to Computer Networks",
+            "text": "the link that carries the data from one place to another place so we have two kinds of communication links one is a wildling another one is a wireless link and the link only carries the"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 348.419,
+            "end": 366.28999999999996,
+            "video_title": "Introduction to Computer Networks",
+            "text": "information we shall see some examples cable is a best example for wired link and R is the best example for a wireless now let's take this example where this example involves lots of nodes and so"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 363.44,
+            "end": 377.48,
+            "video_title": "Introduction to Computer Networks",
+            "text": "many links if you observe certain links are my earnings and certain links are wireless links so this is a perfect example of a sample computer network now what are all the devices or nodes"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 375.26,
+            "end": 390.53000000000003,
+            "video_title": "Introduction to Computer Networks",
+            "text": "involved in the network this printer is a node the stock computers are nodes tablet is a node the smartphone is a node cell phone tower is a node this wireless router is a node route the"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 387.38,
+            "end": 402.16999999999996,
+            "video_title": "Introduction to Computer Networks",
+            "text": "internet cloud see there are lots of nodes involved in this internet cloud in reality internet contains lots of intermediary devices these are all intermediary devices and these role end"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 399.68,
+            "end": 418.40000000000003,
+            "video_title": "Introduction to Computer Networks",
+            "text": "devices why we call this as in device because this will be either the starting point of the communication or the end point in the communication say for example if this computer wants to access"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 411.7,
+            "end": 430.19,
+            "video_title": "Introduction to Computer Networks",
+            "text": "www.eso.org ESO on this device this switch is the buyer willing but communication can happen through this intermediary devices similarly if this mode phone also wants to get some data"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 427.61,
+            "end": 440.93,
+            "video_title": "Introduction to Computer Networks",
+            "text": "from naso Academy dot hua ji this can also give the request but this request can be carried out either this way or this way but if you observing both events they are wireless so the"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 439.04,
+            "end": 454.28000000000003,
+            "video_title": "Introduction to Computer Networks",
+            "text": "same server can be accessed with the help of wires as well as with the will both wireless now the important point to note about a computer network is that it is mainly used for research re a"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 451.72,
+            "end": 469.28,
+            "video_title": "Introduction to Computer Networks",
+            "text": "computer network is mainly used for resource sharing say there are four computers here if all four computers wants a printer it is definitely not an ideal solution to purchase four printers"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 465.53,
+            "end": 483.67,
+            "video_title": "Introduction to Computer Networks",
+            "text": "for all computers think of the scenario this way I have brought in a printer and have connected this printer to my network now all these four computers can use this printer so thus networks save a"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 480.35,
+            "end": 495.349,
+            "video_title": "Introduction to Computer Networks",
+            "text": "lot of infrastructure cost as well and there is an interesting scenario for you you have to find out what on the end device is used in the scenario and what are the intermediary devices"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 492.62,
+            "end": 508.189,
+            "video_title": "Introduction to Computer Networks",
+            "text": "after finding out all the end devices and the intermediary devices just list it out like this on your paper so I am showing this scenario for you please take a piece of paper and note down all"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 505.639,
+            "end": 521.68,
+            "video_title": "Introduction to Computer Networks",
+            "text": "the N devices and intermediary devices please pause this video for a while and carry out this task once done you compare this with the actual result now if your result is"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 520.519,
+            "end": 532.2199999999999,
+            "video_title": "Introduction to Computer Networks",
+            "text": "matching with this result congratulations to you you are progressing in the right direction if not no problem guys we are in the initial stage it will take some lectures"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 530.3,
+            "end": 544.699,
+            "video_title": "Introduction to Computer Networks",
+            "text": "to understand the details about networking upon this completion of this lecture the learner will be able to understand what is computer network and given a scenario the learner will be"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 542.209,
+            "end": 556.61,
+            "video_title": "Introduction to Computer Networks",
+            "text": "able to identify what are n devices and water intermediary devices I hope you are all very clear with the definition of a computer network it is a set of nodes connected by communication links"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 554.089,
+            "end": 567.41,
+            "video_title": "Introduction to Computer Networks",
+            "text": "where that link can be a wired link or a wireless link the devices which are the source or the destination in the communication are called as n devices the devices which forwards the data from"
+        },
+        {
+            "video_id": "VwN91x5i25g",
+            "start": 565.339,
+            "end": 585.479,
+            "video_title": "Introduction to Computer Networks",
+            "text": "one side to another side they are called as intermediary devices thank you for watching [Applause] [Music]"
+        }
+    ],
+    "text": "hello everyone I welcome you all to this wonderful course on computer networks I am your instructor here to take you throughout this journey on computer networks before we start let's figure out to whom this course is actually intended to this course is mainly for the undergraduate students and this course is useful for the students who are preparing for their gate exams and not only gate exams this course will surely help the students to crack networking based interviews this course can be a prerequisite course to CCNE international certification course and if you want to demystify all the networking technologies and jargons used in the networking field this course will surely fulfill your expectation in a nutshell this course will surely quench the thirst of computer networking and coming to the scope of this course trust me guys networking is everywhere because Network supports the way we learn network supports the way we communicate network supports the way we work and the way we play I shall explain you how Network supports the way we learn I am the instructor of this course and I am teaching in one part of the world and the learners are in different parts of the world still teaching and learning is happening very seamlessly and that's the power of networking and network supports the way we communicate think of a traditional landline phone communication we used to send only her voice data but now the communication pattern has entirely changed think of an example mobile application what's up we are able to send text images animations videos audios and even voice calls and video calls which are real-time communication we are able to do all this communication seamlessly and perfectly with the help of computer networks isn't the computer network awesome guys Network supports the very work yes one can work from home by accessing the files and softwares actually available in the company and network supports the way we played to talking about the pedagogy we need to understand the theoretical background of all the concepts hence we go with the traditional lecturing methods and the contemporary lecturing methods as I already mentioned you that we will be solving many gate examination related problems here in this course and to understand the things practically world one of the most powerful simulation and learning tools the Cisco packet tracer is used in talking about the syllabi in the first face of the computer networking course the fundamentals are dealt elaborately actually computer networks follow slaying to send data from one computer to another and each layer is addressed separately as a separate chapters and it is dealt in a very detailed manner and security is very important not only in real life even for computer networks too and the last phase of the computer network will cover the need for security and how security is provided in computer networks now let's talk about the outcomes of today's lecture upon the completion of this lecture the learner will be able to understand what is computer network and they will be able to identify n devices and intermediary devices if the scenario is given we'll start with the definition of a computer network a computer network is a set of nodes connected by communication links I repeat a computer network is a set of nodes connected by communication links to understand this definition I shall highlight the important words they are the key words of this definition the key words are nodes and communication links firstly we'll concentrate on nodes a node can be a computer printer or any other device capable of sending or receiving data say you have a device if the device can send data or receive data or both send and receive data then we can call that devices and node so a node can be a computer printer or any device but the important point to note here is that device should be capable enough in sending or receiving the data we shall see some examples for nodes obviously a computer is a node because a computer can send data as well as receive data a server printer security camera and many devices like switches bridges and routers are also called as nodes we will be dealing about switches bridges and routers in the upcoming lectures now we are done with nodes we'll concentrate on what are communication links a communication link can be a wired link wireless link the important point to note about the link is that this link only carries the information if you don't understand anything out of this just wait for this example see this example now there are two computers we can call these two computers as knows why because these two computers can send data as well as receive data now these nodes are going to exchange their information but for exchanging the information they are depending upon this cable where this cable is still linked now obviously a cable is a physical medium so it comes under wired category so wired link carries the information from this computer to this computer or vice versa but there are scenarios where two devices wants to communicate with each other but not with the help of cables set in the scenario these two smartphones wants to exchange data say this phone wants to give some data to this phone in this case there is no physical connectivity then how can be that communication be established this is possible through wireless technologies if that is the case who is going to carry the signals obviously air is going to carry the data so here ad is the link that carries the data from one place to another place so we have two kinds of communication links one is a wildling another one is a wireless link and the link only carries the information we shall see some examples cable is a best example for wired link and R is the best example for a wireless now let's take this example where this example involves lots of nodes and so many links if you observe certain links are my earnings and certain links are wireless links so this is a perfect example of a sample computer network now what are all the devices or nodes involved in the network this printer is a node the stock computers are nodes tablet is a node the smartphone is a node cell phone tower is a node this wireless router is a node route the internet cloud see there are lots of nodes involved in this internet cloud in reality internet contains lots of intermediary devices these are all intermediary devices and these role end devices why we call this as in device because this will be either the starting point of the communication or the end point in the communication say for example if this computer wants to access www.eso.org ESO on this device this switch is the buyer willing but communication can happen through this intermediary devices similarly if this mode phone also wants to get some data from naso Academy dot hua ji this can also give the request but this request can be carried out either this way or this way but if you observing both events they are wireless so the same server can be accessed with the help of wires as well as with the will both wireless now the important point to note about a computer network is that it is mainly used for research re a computer network is mainly used for resource sharing say there are four computers here if all four computers wants a printer it is definitely not an ideal solution to purchase four printers for all computers think of the scenario this way I have brought in a printer and have connected this printer to my network now all these four computers can use this printer so thus networks save a lot of infrastructure cost as well and there is an interesting scenario for you you have to find out what on the end device is used in the scenario and what are the intermediary devices after finding out all the end devices and the intermediary devices just list it out like this on your paper so I am showing this scenario for you please take a piece of paper and note down all the N devices and intermediary devices please pause this video for a while and carry out this task once done you compare this with the actual result now if your result is matching with this result congratulations to you you are progressing in the right direction if not no problem guys we are in the initial stage it will take some lectures to understand the details about networking upon this completion of this lecture the learner will be able to understand what is computer network and given a scenario the learner will be able to identify what are n devices and water intermediary devices I hope you are all very clear with the definition of a computer network it is a set of nodes connected by communication links where that link can be a wired link or a wireless link the devices which are the source or the destination in the communication are called as n devices the devices which forwards the data from one side to another side they are called as intermediary devices thank you for watching [Applause] [Music] "
+}

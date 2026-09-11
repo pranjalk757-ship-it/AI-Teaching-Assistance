@@ -1,0 +1,16 @@
+Based on the course material, here is what is meant by **mesh topology**:
+
+### What is a Topology?
+A **topology** is the arrangement of nodes in a computer network so that communication can be established among all of them.
+
+### What is Mesh Topology?
+In a **mesh topology**:
+* Every pair of nodes has a dedicated line.
+* Each individual node has a direct link to all other nodes in the network (for example, in a network with five nodes, a given node will connect directly to all other nodes).
+
+### Advantages of Mesh Topology
+* **Fault Tolerant:** A failure is not going to affect the network.
+* **Reliable:** You can rely upon this network.
+
+### Disadvantages of Mesh Topology
+* The material notes that there are disadvantages to this topology, particularly when dealing with a large number of computers, such as a thousand or two thousand computers or more.

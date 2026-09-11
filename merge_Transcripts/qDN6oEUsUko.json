@@ -1,0 +1,378 @@
+{
+    "video_id": "qDN6oEUsUko",
+    "video_title": "Network Topology (Solved Questions)",
+    "chunks": [
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 0.08,
+            "end": 15.23,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "in the previous lecture we have seen various network topologies now we will solve some problems based on network topologies before we start let's understand what we are going to do today"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 12.46,
+            "end": 28.009,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "upon the completion of the session we will be able to determine the number of cables or links and the number of ports that are required for a given Kepala G we will now have a simple recapture on"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 25.849,
+            "end": 44.809,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "network topologies the network topologies are bus ring star mesh and hybrid we shall have a simple recapture on each of this now bus topology in a bus topology we will have a common"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 42.109,
+            "end": 55.67,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "transmission medium and all data traffic will flow through this transmission medium only and this traffic will be in both directions coming to the ring topology this is a"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 53.089,
+            "end": 68.0,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "bus topology but in a closed loop and one more point to note here is that it is a unidirectional communication and all data traffic will flow in one direction only coming to the star"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 65.09,
+            "end": 81.59,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "topology we will have a central node may be a switch or a hub and each device will be connected to the central node coming to the mesh topology every pair of nodes will have a dedicated line if"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 79.31,
+            "end": 95.0,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "there is a node every node will be connected with its other nodes through a dedicated link and coming to the hybrid topology a hybrid topology is a combination of one or more topologies in"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 92.3,
+            "end": 107.12,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "this case here is a bus topology which is connected to a star topology and in turn this is connected to a mesh topology and that is why we call this as a hybrid topology now we will move on to"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 105.2,
+            "end": 120.23,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "the questions question number one identify the given topology and determine how many cables and ports are required to have such Network we are given with a topology and we have to"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 117.77,
+            "end": 130.81900000000002,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "identify what is this topology and the answer is very simple this is a ring topology how many cables and ports are required to have such Network let us formally solve this"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 129.229,
+            "end": 144.439,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "question in a ring topology if there are two nodes then we need two cables this is cable one and this is cable two and each node needs two ports this is one port"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 142.099,
+            "end": 157.73,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "and this is port number two similarly this node also should have two ports port 1 and port 2 so total of 4 ports are required each node must have two ports so that is what is given here so I"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 155.42,
+            "end": 169.22,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "have created a table like this where the number of nodes are listed how many cables are required the number of ports per device and the number of ports in the network this is my own way"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 167.18,
+            "end": 181.22,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "of representation and if you want you can use a different notation if M is the number of node if there are two nodes and we need two cables so that is why I have used yin in both the cases the"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 179.18,
+            "end": 193.7,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "number of nodes is equal to the number of cables in ring topology this will not be the case for all topologies since there are two nodes we need two cables and each node must have two ports and"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 191.75,
+            "end": 207.5,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "that is why I have mentioned two here and a total there are four ports required if the number of nodes are to submit have a question in their mind one cable is enough for the scenario why do"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 204.47,
+            "end": 220.01,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "we need two cables actually VR and concerned about peer-to-peer networking and this is a ring topology a ring topology means that should be closed it means there should be a cycle now we"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 217.37,
+            "end": 231.28,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "will see a ring topology that involves three nodes now this is an example scenario that involves three nodes if three nodes are involved then obviously three cables are"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 229.54,
+            "end": 245.07999999999998,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "required that is what I have mentioned here three nodes it needs three cables and each node must have two ports number of ports per device is equal to 2 and therefore 2 into 3 3 nodes 2 into 3 is"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 244.18,
+            "end": 257.32,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "equal to 6 a total of 6 ports are there in the network now we will see if the number of nodes is 4 if there are four nodes in a ring"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 254.739,
+            "end": 273.82000000000005,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "topology then four cables are required cable one two three and four and each node must have two ports and the total of 2 2 2 2 so 2 plus 2 plus 2 plus 2 so a total of 8 ports are required if there"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 271.479,
+            "end": 288.75899999999996,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "are hundred nodes in a ring topology and it is very difficult to manually draw a hundred nodes and solve it so we need a formula to do this the genetic formula is if there are n nodes then we need n"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 285.849,
+            "end": 302.229,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "cables each node must have two ports therefore the number of ports total number of ports in the network is equal to 2 into n so I have given a formula total number of ports is equal to number"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 299.229,
+            "end": 315.46,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "of nodes into number of ports per device this is number of ports per device as far as ring topology is concerned number of ports per device will always be 2 only so it is fixed as 2 + 2 into number"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 313.78,
+            "end": 327.37,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "of ports will give you the total number of pores we will revisit this question again identify the given topology we have identified this it is a ring topology"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 325.0,
+            "end": 344.56,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "and now we will determine how many cables and ports are required to have such Network and the solution to this is it is a ring topology and here the number of nodes are 6 this is 1 2 3 4 5"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 341.44,
+            "end": 356.26,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "6 so there are 6 nodes and that is why I have mentioned as n is equal to 6 if n is equal to 6 then the number of cables that are required is also 6 we know that if n is the number of nodes then the"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 354.73,
+            "end": 369.66999999999996,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "number of cables that are required is also 6 therefore we need 6 cables in a ring topology for this topology now we will see how many ports are required we know very well the total number of ports"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 367.12,
+            "end": 383.05,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "is equal to the number of nodes in to number of nodes per device we know number of ports per device is equal to 2 and the number of nodes is equal to 6 so n is equal to 6 and number of ports per"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 380.32,
+            "end": 398.51899999999995,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "device is equal to 2 so when we saw the total number of ports in the network is equal to 6 into 2 which is equal to 12 the answer for this question is it is a ring topology and it needs 6 cables and"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 393.69,
+            "end": 416.669,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "total 12 ports are there in this network now we will move on to question number two traffic problem can be minimized using a star B bus C ring and D mesh topology we have to identify in which"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 412.659,
+            "end": 430.02000000000004,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "topology there is minimal traffic this is a star topology this is the bus topology this is a ring topology and here is the mesh topology first we will check whether there is a traffic problem"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 426.599,
+            "end": 443.55,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "in star topology in star topology all nodes are going to send traffic or data to the central hub obviously traffic is high in the central node a star topology is not the answer and coming to the bus"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 441.029,
+            "end": 454.8,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "topology we know very well that it is depending on the common transmission medium and all nodes are going to use this common transmission medium and it is a bi-directional communication to so"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 452.669,
+            "end": 466.949,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "traffic problem is there in bus topology also so this is also not the answer and coming to the ring topology we know very well that it is a unidirectional communication and all traffic will be in"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 464.639,
+            "end": 477.99,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "this direction only suppose if this is going to send some data to this device it cannot send this way because if the traffic pattern is like this then it has to send in this way only similarly all"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 475.86,
+            "end": 491.009,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "devices will be sending their data in this pattern only so traffic problem cannot be minimized using ring topology and coming to the mesh topology every pair of nodes have a separate line or a"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 488.849,
+            "end": 503.46,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "dedicated line or a dedicated channel since every pair of node has a dedicated link so there is no traffic problem in this case suppose if this wants to send some data to this node so it uses this"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 501.029,
+            "end": 515.399,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "line and this is a dedicated line that is exclusively for these two nodes and if this node wants to send some data to this node it uses this dedicated line so the answer for the question is traffic"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 512.94,
+            "end": 531.63,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "problem can be minimized using mesh topology the answer is mesh topology now we will see question number three how many ports and cables are required for a star topology in a star topology there"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 529.29,
+            "end": 547.1990000000001,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "will be a central node every node is connected to the central node so if we observe you will say there are 1 2 3 4 5 ports if there are 5 devices we will say there are 5 ports but that is wrong"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 544.26,
+            "end": 566.819,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "because this central device also should have a port if we are concerned about only party nor then it needs only one port but in the entire scenario there are 10 ports 1"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 557.279,
+            "end": 580.5699999999999,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "2 3 4 5 6 7 8 9 and 10 so there are 10 ports and there are 5 cables it is very easy to solve it if the scenario involves a very small number of nodes but we have to formally solve it"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 577.48,
+            "end": 593.9200000000001,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "if n represents the number of nodes then the same number of cables are required we can evidence this example one two three four five nodes and one two three four and five cables so if it uses only"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 591.64,
+            "end": 607.72,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "two nodes it uses two cables similarly three nodes means three cables and each node will have one put so the number of ports will be one but do remember we have to focus on this part"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 604.3,
+            "end": 621.73,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "also so I have given a generic formula total number of ports is equal to 2 into n where n is the number of nodes if our network involves only 2 nodes we need 2 cables and we know very well that every"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 619.45,
+            "end": 636.4,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "device will have 1 port the total number of ports will be 2 into N in this case n is equal to 2 so 2 into 2 is equal to 4 if 3 nodes are involved we need 3 cables and every device will have one port only"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 633.79,
+            "end": 654.58,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "and total number of ports is equal to 2 into 3 which is equal to 6 if there are 4 nodes then there will be 8 ports if n nodes are there 2 into n is the total number of ports the answer to question 3"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 650.95,
+            "end": 668.32,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "is if there are n nodes and we need n cables in this case n is equal to 5 so we need 5 cables and the number of ports is equal to 2 into n where n is equal to 5 in this case so 2 into 5 which is"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 665.589,
+            "end": 681.37,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "equal to 10 the number of ports 10 means the poor's involved in the end devices as well as the intermediary devices there is a homework problem for you assume 6 devices are arranged in a mesh"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 678.64,
+            "end": 693.01,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "topology we are required to find how many cables are needed how many ports are needed for each device how many ports are there in the entire network derive a formula and post"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 691.06,
+            "end": 703.869,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "your answers in the comment section I hope now we will be able to determine the number of cables or links and the number of ports required for a given topology"
+        },
+        {
+            "video_id": "qDN6oEUsUko",
+            "start": 701.649,
+            "end": 718.389,
+            "video_title": "Network Topology (Solved Questions)",
+            "text": "I hope the session is informative and thank you for watching [Applause] [Music]"
+        }
+    ],
+    "text": "in the previous lecture we have seen various network topologies now we will solve some problems based on network topologies before we start let's understand what we are going to do today upon the completion of the session we will be able to determine the number of cables or links and the number of ports that are required for a given Kepala G we will now have a simple recapture on network topologies the network topologies are bus ring star mesh and hybrid we shall have a simple recapture on each of this now bus topology in a bus topology we will have a common transmission medium and all data traffic will flow through this transmission medium only and this traffic will be in both directions coming to the ring topology this is a bus topology but in a closed loop and one more point to note here is that it is a unidirectional communication and all data traffic will flow in one direction only coming to the star topology we will have a central node may be a switch or a hub and each device will be connected to the central node coming to the mesh topology every pair of nodes will have a dedicated line if there is a node every node will be connected with its other nodes through a dedicated link and coming to the hybrid topology a hybrid topology is a combination of one or more topologies in this case here is a bus topology which is connected to a star topology and in turn this is connected to a mesh topology and that is why we call this as a hybrid topology now we will move on to the questions question number one identify the given topology and determine how many cables and ports are required to have such Network we are given with a topology and we have to identify what is this topology and the answer is very simple this is a ring topology how many cables and ports are required to have such Network let us formally solve this question in a ring topology if there are two nodes then we need two cables this is cable one and this is cable two and each node needs two ports this is one port and this is port number two similarly this node also should have two ports port 1 and port 2 so total of 4 ports are required each node must have two ports so that is what is given here so I have created a table like this where the number of nodes are listed how many cables are required the number of ports per device and the number of ports in the network this is my own way of representation and if you want you can use a different notation if M is the number of node if there are two nodes and we need two cables so that is why I have used yin in both the cases the number of nodes is equal to the number of cables in ring topology this will not be the case for all topologies since there are two nodes we need two cables and each node must have two ports and that is why I have mentioned two here and a total there are four ports required if the number of nodes are to submit have a question in their mind one cable is enough for the scenario why do we need two cables actually VR and concerned about peer-to-peer networking and this is a ring topology a ring topology means that should be closed it means there should be a cycle now we will see a ring topology that involves three nodes now this is an example scenario that involves three nodes if three nodes are involved then obviously three cables are required that is what I have mentioned here three nodes it needs three cables and each node must have two ports number of ports per device is equal to 2 and therefore 2 into 3 3 nodes 2 into 3 is equal to 6 a total of 6 ports are there in the network now we will see if the number of nodes is 4 if there are four nodes in a ring topology then four cables are required cable one two three and four and each node must have two ports and the total of 2 2 2 2 so 2 plus 2 plus 2 plus 2 so a total of 8 ports are required if there are hundred nodes in a ring topology and it is very difficult to manually draw a hundred nodes and solve it so we need a formula to do this the genetic formula is if there are n nodes then we need n cables each node must have two ports therefore the number of ports total number of ports in the network is equal to 2 into n so I have given a formula total number of ports is equal to number of nodes into number of ports per device this is number of ports per device as far as ring topology is concerned number of ports per device will always be 2 only so it is fixed as 2 + 2 into number of ports will give you the total number of pores we will revisit this question again identify the given topology we have identified this it is a ring topology and now we will determine how many cables and ports are required to have such Network and the solution to this is it is a ring topology and here the number of nodes are 6 this is 1 2 3 4 5 6 so there are 6 nodes and that is why I have mentioned as n is equal to 6 if n is equal to 6 then the number of cables that are required is also 6 we know that if n is the number of nodes then the number of cables that are required is also 6 therefore we need 6 cables in a ring topology for this topology now we will see how many ports are required we know very well the total number of ports is equal to the number of nodes in to number of nodes per device we know number of ports per device is equal to 2 and the number of nodes is equal to 6 so n is equal to 6 and number of ports per device is equal to 2 so when we saw the total number of ports in the network is equal to 6 into 2 which is equal to 12 the answer for this question is it is a ring topology and it needs 6 cables and total 12 ports are there in this network now we will move on to question number two traffic problem can be minimized using a star B bus C ring and D mesh topology we have to identify in which topology there is minimal traffic this is a star topology this is the bus topology this is a ring topology and here is the mesh topology first we will check whether there is a traffic problem in star topology in star topology all nodes are going to send traffic or data to the central hub obviously traffic is high in the central node a star topology is not the answer and coming to the bus topology we know very well that it is depending on the common transmission medium and all nodes are going to use this common transmission medium and it is a bi-directional communication to so traffic problem is there in bus topology also so this is also not the answer and coming to the ring topology we know very well that it is a unidirectional communication and all traffic will be in this direction only suppose if this is going to send some data to this device it cannot send this way because if the traffic pattern is like this then it has to send in this way only similarly all devices will be sending their data in this pattern only so traffic problem cannot be minimized using ring topology and coming to the mesh topology every pair of nodes have a separate line or a dedicated line or a dedicated channel since every pair of node has a dedicated link so there is no traffic problem in this case suppose if this wants to send some data to this node so it uses this line and this is a dedicated line that is exclusively for these two nodes and if this node wants to send some data to this node it uses this dedicated line so the answer for the question is traffic problem can be minimized using mesh topology the answer is mesh topology now we will see question number three how many ports and cables are required for a star topology in a star topology there will be a central node every node is connected to the central node so if we observe you will say there are 1 2 3 4 5 ports if there are 5 devices we will say there are 5 ports but that is wrong because this central device also should have a port if we are concerned about only party nor then it needs only one port but in the entire scenario there are 10 ports 1 2 3 4 5 6 7 8 9 and 10 so there are 10 ports and there are 5 cables it is very easy to solve it if the scenario involves a very small number of nodes but we have to formally solve it if n represents the number of nodes then the same number of cables are required we can evidence this example one two three four five nodes and one two three four and five cables so if it uses only two nodes it uses two cables similarly three nodes means three cables and each node will have one put so the number of ports will be one but do remember we have to focus on this part also so I have given a generic formula total number of ports is equal to 2 into n where n is the number of nodes if our network involves only 2 nodes we need 2 cables and we know very well that every device will have 1 port the total number of ports will be 2 into N in this case n is equal to 2 so 2 into 2 is equal to 4 if 3 nodes are involved we need 3 cables and every device will have one port only and total number of ports is equal to 2 into 3 which is equal to 6 if there are 4 nodes then there will be 8 ports if n nodes are there 2 into n is the total number of ports the answer to question 3 is if there are n nodes and we need n cables in this case n is equal to 5 so we need 5 cables and the number of ports is equal to 2 into n where n is equal to 5 in this case so 2 into 5 which is equal to 10 the number of ports 10 means the poor's involved in the end devices as well as the intermediary devices there is a homework problem for you assume 6 devices are arranged in a mesh topology we are required to find how many cables are needed how many ports are needed for each device how many ports are there in the entire network derive a formula and post your answers in the comment section I hope now we will be able to determine the number of cables or links and the number of ports required for a given topology I hope the session is informative and thank you for watching [Applause] [Music] "
+}

@@ -1,0 +1,441 @@
+{
+    "video_id": "ly8ikWtAY7s",
+    "video_title": "Network Protocols & Communications (Part 1)",
+    "chunks": [
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 0.179,
+            "end": 13.47,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "hello everyone welcome back to the course on computer networks today we shall see Network protocols and communication before we step into the topic we shall understand what are the"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 10.95,
+            "end": 24.419999999999998,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "things we are going to learn today today we will be learning about data communication data flow what are the importance of protocol in computer network understand guys protocols are"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 22.53,
+            "end": 36.81,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "very important in computer network and what are the elements will also be addressed in today's session now we shall see what is data communication data communications are the exchange of"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 33.78,
+            "end": 50.309000000000005,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "data between two nodes if there are two nodes they are going to exchange data via some form of link or transmission medium in this case the transmission medium is the cable we have seen data"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 47.969,
+            "end": 64.26,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "communication it means two nodes are going to exchange data data flow means the data is going to flow from one node to another node and there are three different flows simplex half-duplex full"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 61.469,
+            "end": 78.11000000000001,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "duplex we shall see all these three data flows in detail firstly the simplex it is always a unidirectional communication one node can transmit and other will receive for example keyboards just take"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 76.08,
+            "end": 90.06,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "a keyboard is connected to a CPU keyboard is going to give data to the CPU whereas CPU is not going to give any data to the keyboard likewise our traditional monitors I am NOT talking"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 87.869,
+            "end": 102.15,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "about our touch monitors are traditional monitors whatever the data is there in the CPU that is going to be given to the monitor and monitor is not going to give any information to the CPU in both the"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 99.78,
+            "end": 115.65,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "cases the data or the communication is always unidirectional coming to the half duplex the communication is in both directions it means it can send as well as it can receive but not at the same"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 113.189,
+            "end": 128.219,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "time the very important part about half duplex is that the communication can happen in both directions but not at the same time if one device is sending the other device can receive and not at the"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 126.03,
+            "end": 141.719,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "same time both sending and receiving can happen example walkie talkie in a walkie talkie we can talk as well as we can but we can't talk and listen at the same time now we shall see what is"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 139.079,
+            "end": 152.909,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "full-duplex or simply duplex in the previous case that is the half duplex communication happened in both directions but not at the same time whereas in full duplex communication can"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 150.42,
+            "end": 165.599,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "happen in both directions simultaneously it means devices can send or receive data at the same time example telephone line we can talk as well as listen simultaneously in a telephone line now"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 163.56,
+            "end": 178.10899999999998,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "we shall see an example for simplex communication now this computer is sending data in only one direction so this is simplex if both sending and receiving can happen but not at the same"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 175.739,
+            "end": 192.15,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "time if you observe now sending is happening now receiving is happening but not at the same time this is sending and this is receiving this is not happening at the same time so this comes under"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 189.709,
+            "end": 203.549,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "half-duplex and full-duplex mode of communication both sending and receiving can happen at the same time if both sending and receiving can happen simultaneously then we call as full"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 201.239,
+            "end": 216.209,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "duplex we will now see what are protocols any communication scheme whether it is a postal communication or a whatsapp communication or SMS way of communication we always have certain"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 213.03,
+            "end": 228.93,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "things in common they are source or sender destination or the receiver Channel or media any communication will definitely have these things source or the sender destination or the receiver"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 226.53,
+            "end": 242.4,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "channel or the media and this communication will always be governed by certain protocols so protocols are rules that governs all the methods of communication what if there are no"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 239.22,
+            "end": 256.169,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "protocols if this guy speaks at high speed which this destination cannot handle this communication becomes useless so they have to mutually agree upon certain rules what if this blue guy"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 253.68,
+            "end": 267.40999999999997,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "speaks in the language which this guy cannot understand he may be grammatically correct but still there is no use in this communication again what if this blue"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 264.86,
+            "end": 278.87,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "guy keeps on talking at a high speed at the same time not at all giving any room for this guy to respond so these are example situations where the communication goes chaos or messy so"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 276.74,
+            "end": 293.09,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "definitely there is a need for protocols because a protocol is a set of rules that governs data communication simply speaking protocol is a rule that governs data communication protocol determines"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 290.479,
+            "end": 303.71,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "what is communicated in the network how it is communicated in the network and when it is communicated in the network before going into the network communication let's talk about the"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 301.52,
+            "end": 314.75,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "protocols in the human communication in human communication definitely there should be sender and a receiver there may be a single receiver or a group of receivers and this human communication"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 312.74,
+            "end": 325.52,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "can be effective only when this communication involves common language and grammar otherwise communication will not be perfect and speed and timing of delivery of speech is also very"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 323.18,
+            "end": 335.69,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "important in human communication and if this guy wants to ensure whatever he has talked is understandable by this guy he should get confirmation or the acknowledgement from the receiver that"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 333.32,
+            "end": 346.07,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "is the destination only then human communication can be effective we have just seen what is human communication why do we need protocols in human communication now we shall see why do we"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 344.18,
+            "end": 358.22,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "need protocols in network communication say if there is a sender and there is a receiver and this communication can be effective when these protocols are addressed properly the message should be"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 355.37,
+            "end": 371.479,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "encoded formatted and encapsulated in such a way that the destination can understand timing is also very important in network communication the size is also very important because the link"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 368.81,
+            "end": 381.59,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "cannot carry big data if this is a low capacity link then this link cannot carry big data if there is a very big data in the sender side it cannot send that big data on a very"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 379.52,
+            "end": 391.639,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "small link so it has to be handled appropriately at the same time the delivery option should also be dealt whether the message is only for one destination or some group of"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 389.78,
+            "end": 403.46,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "destinations on all the day nations in the network that should also be dealt in the protocol spot so a protocol defines message encoding message formatting and encapsulation"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 400.279,
+            "end": 417.289,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "message timing message size and the delivery that is what we exactly call as elements the elements of protocol are message encoding message formatting and encapsulation message timing message"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 414.409,
+            "end": 428.41900000000004,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "size and message delivery options we shall see each of this element in a detailed manner message encoding means the source that is the source computer generates a message"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 426.02,
+            "end": 440.18,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "it gives that message to the encoder in order to generate signals once the data is converted into signals now it is given to the transmitter for transmission you may be getting confused"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 436.759,
+            "end": 451.669,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "why we need encoder here because we have two kinds of transmission medium one is a wired medium another one is a wireless medium the source have to understand to which medium it is connected to if it is"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 449.27,
+            "end": 462.979,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "a wired medium the data have to be converted into signals in order to facilitate the data transmission on a wired medium if it is a wireless medium the sender have to encode the data in"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 460.639,
+            "end": 475.72900000000004,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "the form of waves because this is a wireless medium we can't send signals we have to send waves and once the data is sent through the transmission medium the receiver receives the data and D course"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 472.819,
+            "end": 486.199,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "it decoding means understanding it after understanding it properly it means the message has reached the destination this is what message encoding is all about the sender sends"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 483.469,
+            "end": 497.659,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "the data the sender creates the data and encodes the data and finally the transmitter sends the data through the transmission medium this transmission medium takes the data to the receiver"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 494.839,
+            "end": 508.87899999999996,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "the receiver after receiving the data it decodes the data and after proper decoding it means the message has reached the destination this is what message encoding is all about we shall"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 506.75,
+            "end": 520.8489999999999,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "see the second element of the protocol that is the message formatting and encapsulation both sender and receiver must mutually agree upon certain formats which we call as formatted at the same"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 518.839,
+            "end": 530.9100000000001,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "time when the receiver receives some data it should identify who has sent this data we are going to add some information with the data in order to identify the"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 528.87,
+            "end": 541.35,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "sender and the receiver so we are not going to just send data assets we are going to encapsulate certain things like the source information and the destination information with the data so"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 539.31,
+            "end": 554.01,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "that the right sender and the receivers are identified and the third element in the protocol part is message sizing if there is a very big message to be communicated to the destination human"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 551.85,
+            "end": 567.66,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "breaks the message into smaller parts or sentences say if this guy has a very big content to be sent so what he does he breaks the message into smaller parts or sentences likewise our computer should"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 565.05,
+            "end": 578.64,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "also do that if the capacity of the link is very small but the data to be transmitted is very big this computer should break this big message into smaller units which this"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 576.24,
+            "end": 589.71,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "transmission medium can handle this is what message sizing and this is one of the thing a protocol should do and message timing is the fourth element of protocols and message timing deals with"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 588.03,
+            "end": 603.99,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "flow control and response time mode let's first talk about flow control let's assume this guy is very fast the sender is very fast and the receiver is slow since the sender is very fast it"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 601.02,
+            "end": 615.9300000000001,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "can send data at high speed what about the receiver he can't handle that speed if there is no flow control mechanism he can keep so on sending data but he cannot receive that data so the entire"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 613.56,
+            "end": 627.3000000000001,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "communication will become useless it is the responsibility of the protocol to provide flow control mechanism at the same time the sender is sending some data and the receiver has to acknowledge"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 624.78,
+            "end": 637.89,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "the data when the acknowledgement is sent back to the sender the sender can understand that the data is received by the destination if the acknowledgement is not received the sender have to wait"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 635.79,
+            "end": 649.32,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "for a certain period of time after the expiry of the time the sender will retransmit the same so that we can ensure guaranteed delivery and it is the responsibility of the protocol to tell"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 646.68,
+            "end": 662.7,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "how much time this computer should wait for an acknowledgment and we have the last element of the protocol and may say delivery options there are three delivery options one unique"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 658.92,
+            "end": 675.39,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "- multicast 3 broadcast unicasting means one sender and one receiver it means this sender is going to send data to exactly one receiver in the network if the sender is sending the"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 672.66,
+            "end": 688.65,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "data to exactly one destination it is called as unicasting if the sender sends the data to set of receivers but not to all then this is multicast in broadcasting means the sender sends the"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 686.34,
+            "end": 700.38,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "data to all the participants in the network then we call us broadcasting and that's it guys now we shall just recapture what we have seen today we have seen what is data communication"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 698.52,
+            "end": 712.56,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "that is the exchange of data between nodes and we have also seen what is data flow and we have seen the three data flows simplex half-duplex and full-duplex we have also seen the role"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 710.16,
+            "end": 723.6,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "of protocols in computer networks not only in computer networks even in real time protocols has a very important role to play with and we have also seen what are the elements of protocols there are"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 721.53,
+            "end": 734.8,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "five elements of protocols message encoding message formatting and encapsulation message size message timing and finally the delivery options I hope the session is informative thank"
+        },
+        {
+            "video_id": "ly8ikWtAY7s",
+            "start": 733.35,
+            "end": 747.23,
+            "video_title": "Network Protocols & Communications (Part 1)",
+            "text": "you all [Applause] [Music] you [Music]"
+        }
+    ],
+    "text": "hello everyone welcome back to the course on computer networks today we shall see Network protocols and communication before we step into the topic we shall understand what are the things we are going to learn today today we will be learning about data communication data flow what are the importance of protocol in computer network understand guys protocols are very important in computer network and what are the elements will also be addressed in today's session now we shall see what is data communication data communications are the exchange of data between two nodes if there are two nodes they are going to exchange data via some form of link or transmission medium in this case the transmission medium is the cable we have seen data communication it means two nodes are going to exchange data data flow means the data is going to flow from one node to another node and there are three different flows simplex half-duplex full duplex we shall see all these three data flows in detail firstly the simplex it is always a unidirectional communication one node can transmit and other will receive for example keyboards just take a keyboard is connected to a CPU keyboard is going to give data to the CPU whereas CPU is not going to give any data to the keyboard likewise our traditional monitors I am NOT talking about our touch monitors are traditional monitors whatever the data is there in the CPU that is going to be given to the monitor and monitor is not going to give any information to the CPU in both the cases the data or the communication is always unidirectional coming to the half duplex the communication is in both directions it means it can send as well as it can receive but not at the same time the very important part about half duplex is that the communication can happen in both directions but not at the same time if one device is sending the other device can receive and not at the same time both sending and receiving can happen example walkie talkie in a walkie talkie we can talk as well as we can but we can't talk and listen at the same time now we shall see what is full-duplex or simply duplex in the previous case that is the half duplex communication happened in both directions but not at the same time whereas in full duplex communication can happen in both directions simultaneously it means devices can send or receive data at the same time example telephone line we can talk as well as listen simultaneously in a telephone line now we shall see an example for simplex communication now this computer is sending data in only one direction so this is simplex if both sending and receiving can happen but not at the same time if you observe now sending is happening now receiving is happening but not at the same time this is sending and this is receiving this is not happening at the same time so this comes under half-duplex and full-duplex mode of communication both sending and receiving can happen at the same time if both sending and receiving can happen simultaneously then we call as full duplex we will now see what are protocols any communication scheme whether it is a postal communication or a whatsapp communication or SMS way of communication we always have certain things in common they are source or sender destination or the receiver Channel or media any communication will definitely have these things source or the sender destination or the receiver channel or the media and this communication will always be governed by certain protocols so protocols are rules that governs all the methods of communication what if there are no protocols if this guy speaks at high speed which this destination cannot handle this communication becomes useless so they have to mutually agree upon certain rules what if this blue guy speaks in the language which this guy cannot understand he may be grammatically correct but still there is no use in this communication again what if this blue guy keeps on talking at a high speed at the same time not at all giving any room for this guy to respond so these are example situations where the communication goes chaos or messy so definitely there is a need for protocols because a protocol is a set of rules that governs data communication simply speaking protocol is a rule that governs data communication protocol determines what is communicated in the network how it is communicated in the network and when it is communicated in the network before going into the network communication let's talk about the protocols in the human communication in human communication definitely there should be sender and a receiver there may be a single receiver or a group of receivers and this human communication can be effective only when this communication involves common language and grammar otherwise communication will not be perfect and speed and timing of delivery of speech is also very important in human communication and if this guy wants to ensure whatever he has talked is understandable by this guy he should get confirmation or the acknowledgement from the receiver that is the destination only then human communication can be effective we have just seen what is human communication why do we need protocols in human communication now we shall see why do we need protocols in network communication say if there is a sender and there is a receiver and this communication can be effective when these protocols are addressed properly the message should be encoded formatted and encapsulated in such a way that the destination can understand timing is also very important in network communication the size is also very important because the link cannot carry big data if this is a low capacity link then this link cannot carry big data if there is a very big data in the sender side it cannot send that big data on a very small link so it has to be handled appropriately at the same time the delivery option should also be dealt whether the message is only for one destination or some group of destinations on all the day nations in the network that should also be dealt in the protocol spot so a protocol defines message encoding message formatting and encapsulation message timing message size and the delivery that is what we exactly call as elements the elements of protocol are message encoding message formatting and encapsulation message timing message size and message delivery options we shall see each of this element in a detailed manner message encoding means the source that is the source computer generates a message it gives that message to the encoder in order to generate signals once the data is converted into signals now it is given to the transmitter for transmission you may be getting confused why we need encoder here because we have two kinds of transmission medium one is a wired medium another one is a wireless medium the source have to understand to which medium it is connected to if it is a wired medium the data have to be converted into signals in order to facilitate the data transmission on a wired medium if it is a wireless medium the sender have to encode the data in the form of waves because this is a wireless medium we can't send signals we have to send waves and once the data is sent through the transmission medium the receiver receives the data and D course it decoding means understanding it after understanding it properly it means the message has reached the destination this is what message encoding is all about the sender sends the data the sender creates the data and encodes the data and finally the transmitter sends the data through the transmission medium this transmission medium takes the data to the receiver the receiver after receiving the data it decodes the data and after proper decoding it means the message has reached the destination this is what message encoding is all about we shall see the second element of the protocol that is the message formatting and encapsulation both sender and receiver must mutually agree upon certain formats which we call as formatted at the same time when the receiver receives some data it should identify who has sent this data we are going to add some information with the data in order to identify the sender and the receiver so we are not going to just send data assets we are going to encapsulate certain things like the source information and the destination information with the data so that the right sender and the receivers are identified and the third element in the protocol part is message sizing if there is a very big message to be communicated to the destination human breaks the message into smaller parts or sentences say if this guy has a very big content to be sent so what he does he breaks the message into smaller parts or sentences likewise our computer should also do that if the capacity of the link is very small but the data to be transmitted is very big this computer should break this big message into smaller units which this transmission medium can handle this is what message sizing and this is one of the thing a protocol should do and message timing is the fourth element of protocols and message timing deals with flow control and response time mode let's first talk about flow control let's assume this guy is very fast the sender is very fast and the receiver is slow since the sender is very fast it can send data at high speed what about the receiver he can't handle that speed if there is no flow control mechanism he can keep so on sending data but he cannot receive that data so the entire communication will become useless it is the responsibility of the protocol to provide flow control mechanism at the same time the sender is sending some data and the receiver has to acknowledge the data when the acknowledgement is sent back to the sender the sender can understand that the data is received by the destination if the acknowledgement is not received the sender have to wait for a certain period of time after the expiry of the time the sender will retransmit the same so that we can ensure guaranteed delivery and it is the responsibility of the protocol to tell how much time this computer should wait for an acknowledgment and we have the last element of the protocol and may say delivery options there are three delivery options one unique - multicast 3 broadcast unicasting means one sender and one receiver it means this sender is going to send data to exactly one receiver in the network if the sender is sending the data to exactly one destination it is called as unicasting if the sender sends the data to set of receivers but not to all then this is multicast in broadcasting means the sender sends the data to all the participants in the network then we call us broadcasting and that's it guys now we shall just recapture what we have seen today we have seen what is data communication that is the exchange of data between nodes and we have also seen what is data flow and we have seen the three data flows simplex half-duplex and full-duplex we have also seen the role of protocols in computer networks not only in computer networks even in real time protocols has a very important role to play with and we have also seen what are the elements of protocols there are five elements of protocols message encoding message formatting and encapsulation message size message timing and finally the delivery options I hope the session is informative thank you all [Applause] [Music] you [Music] "
+}
