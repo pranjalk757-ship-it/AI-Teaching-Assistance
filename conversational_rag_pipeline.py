@@ -15,7 +15,7 @@ def create_embedding(text_list):
     return embedding
 
 client = genai.Client(
-    api_key="REMOVED_SECRET"
+    api_key = os.getenv("GOOGLE_API_KEY")
 )
 
 def generate_response(prompt):

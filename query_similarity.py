@@ -33,6 +33,7 @@ def create_embedding(text):
 # Using Gemini  as LLM for generating response
 client = genai.Client(
     api_key="REMOVED_SECRET"
+    # api_key = os.getenv("GOOGLE_API_KEY")
 )
 def get_response(prompt):
     response = client.models.generate_content(
@@ -68,16 +69,7 @@ top_indices = np.argsort(similarity)[::-1][0:max_index]
 df = pd.DataFrame(all_data)
 new_df = df.loc[top_indices].copy()
 new_df["similarities"] = similarity[top_indices]
-# print(new_df[["chunk_id","text","embedding"]])
 
-# prompt = f'''
-# I'm teaching computer networks in this course.Here are video subtitle chunks containing video title,video id,start time in seconds,end time in seconds,the text at that time:
-
-# {new_df[["video_id","video_title","start","end","chunk_id","text"]]}
-# ----------------------------------------------
-# {question}
-# User asked this question related to video chunks,you have to answer where and how much content is taught in which video(in which video and at what timestamp) and guide the user to go to that particular video.If users asked unrelated questions tell him\her that you can answer question related to this course
-# '''
 
 prompt = f"""
 You are an AI Teaching Assistant for this Computer Networks course.

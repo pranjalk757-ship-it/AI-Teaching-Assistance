@@ -19,3 +19,5 @@ transcripts/
 
 # IDE
 .vscode/
+merge_embeddings/
+merge_Transcripts/

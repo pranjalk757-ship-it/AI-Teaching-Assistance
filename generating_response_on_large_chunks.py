@@ -32,7 +32,7 @@ def create_embedding(text):
 
 # Using Gemini  as LLM for generating response
 client = genai.Client(
-    api_key="REMOVED_SECRET"
+    api_key = os.getenv("GOOGLE_API_KEY")
 )
 def get_response(prompt):
     response = client.models.generate_content(

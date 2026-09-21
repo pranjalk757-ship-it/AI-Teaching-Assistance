@@ -9,7 +9,10 @@ import os
 import numpy as np
 import pandas as pd
 from google import genai
+from dotenv import load_dotenv
 
+
+load_dotenv()
 
 app = FastAPI()
 
@@ -68,14 +71,14 @@ def generate_response(prompt):
     try:
 
         response = client.models.generate_content(
-            model="gemini-3.6-flash",
+            model="gemini-3.5-flash-lite",
             contents=prompt
         )
 
         return response.text
 
     except Exception as e:
-
+        print("Gemini err",e)
         return "Sorry! Gemini is temporarily unavailable."
 
 
