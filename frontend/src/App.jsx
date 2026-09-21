@@ -8,6 +8,7 @@ function App() {
   const [question, setQuestion] = useState("");
   const [loading, setLoading] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [loaded, setLoaded] = useState(false);
 
   const textareaRef = useRef(null);
   const messagesEndRef = useRef(null);
@@ -15,16 +16,27 @@ function App() {
   // =========================
   // LOAD CHAT HISTORY
   // =========================
+
   useEffect(() => {
-    const savedChats = localStorage.getItem("cn-ai-chats");
+    try {
+      const savedChats = localStorage.getItem("cn-ai-chats");
 
-    if (savedChats) {
-      const parsedChats = JSON.parse(savedChats);
-      setChats(parsedChats);
+      if (savedChats) {
+        const parsedChats = JSON.parse(savedChats);
 
-      if (parsedChats.length > 0) {
-        setActiveChatId(parsedChats[0].id);
+        if (Array.isArray(parsedChats)) {
+          setChats(parsedChats);
+
+          if (parsedChats.length > 0) {
+            setActiveChatId(parsedChats[0].id);
+          }
+        }
       }
+    } catch (error) {
+      console.error("Failed to load chat history:", error);
+      localStorage.removeItem("cn-ai-chats");
+    } finally {
+      setLoaded(true);
     }
   }, []);
 
@@ -33,8 +45,13 @@ function App() {
   // =========================
 
   useEffect(() => {
-    localStorage.setItem("cn-ai-chats", JSON.stringify(chats));
-  }, [chats]);
+    if (!loaded) return;
+
+    localStorage.setItem(
+      "cn-ai-chats",
+      JSON.stringify(chats)
+    );
+  }, [chats, loaded]);
 
   // =========================
   // SCROLL TO BOTTOM
@@ -70,7 +87,6 @@ function App() {
 
     setChats((prev) => [newChat, ...prev]);
     setActiveChatId(newChat.id);
-
     setQuestion("");
 
     setTimeout(() => {
@@ -83,55 +99,57 @@ function App() {
   // =========================
 
   const sendMessage = async () => {
-    if (!question.trim() || loading) return;
-
-    let chatId = activeChatId;
-
-    // Create chat automatically if none exists
-    if (!chatId) {
-      const newChat = {
-        id: Date.now(),
-        title: question.slice(0, 35),
-        messages: [],
-        createdAt: new Date().toISOString(),
-      };
-
-      chatId = newChat.id;
-
-      setChats((prev) => [newChat, ...prev]);
-      setActiveChatId(chatId);
-    }
-
     const userQuestion = question.trim();
 
-    // Add user message
+    if (!userQuestion || loading) return;
+
     const userMessage = {
       id: Date.now(),
       role: "user",
       text: userQuestion,
     };
 
-    setChats((prev) =>
-      prev.map((chat) => {
-        if (chat.id !== chatId) return chat;
+    let chatId = activeChatId;
 
-        return {
-          ...chat,
-          title:
-            chat.messages.length === 0
-              ? userQuestion.slice(0, 35)
-              : chat.title,
-          messages: [...chat.messages, userMessage],
-        };
-      })
-    );
+    // =========================
+    // CREATE CHAT IF NEEDED
+    // =========================
+
+    if (!chatId) {
+      chatId = Date.now();
+
+      const newChat = {
+        id: chatId,
+        title: userQuestion.slice(0, 35),
+        messages: [userMessage],
+        createdAt: new Date().toISOString(),
+      };
+
+      setChats((prev) => [newChat, ...prev]);
+      setActiveChatId(chatId);
+    } else {
+      setChats((prev) =>
+        prev.map((chat) => {
+          if (chat.id !== chatId) return chat;
+
+          return {
+            ...chat,
+            title:
+              chat.messages.length === 0
+                ? userQuestion.slice(0, 35)
+                : chat.title,
+            messages: [...chat.messages, userMessage],
+          };
+        })
+      );
+    }
 
     setQuestion("");
     setLoading(true);
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/chat",
+        "https://ai-teaching-assistant-xfut.onrender.com/chat",
         {
           method: "POST",
           headers: {
@@ -144,15 +162,19 @@ function App() {
       );
 
       if (!response.ok) {
-        throw new Error("Backend error");
+        throw new Error(
+          `Backend error: ${response.status}`
+        );
       }
 
       const data = await response.json();
 
       const assistantMessage = {
-        id: Date.now() + 1,
+        id: Date.now(),
         role: "assistant",
-        text: data.answer,
+        text:
+          data.answer ||
+          "I could not generate an answer.",
       };
 
       setChats((prev) =>
@@ -169,10 +191,13 @@ function App() {
         })
       );
     } catch (error) {
+      console.error("Chat error:", error);
+
       const errorMessage = {
-        id: Date.now() + 1,
+        id: Date.now(),
         role: "assistant",
-        text: "Unable to connect to the AI server. Please make sure FastAPI is running.",
+        text:
+          "Unable to connect to the AI server. Please try again.",
       };
 
       setChats((prev) =>
@@ -215,21 +240,21 @@ function App() {
   const deleteChat = (id, e) => {
     e.stopPropagation();
 
-    setChats((prev) =>
-      prev.filter((chat) => chat.id !== id)
-    );
-
-    if (activeChatId === id) {
-      const remaining = chats.filter(
+    setChats((prev) => {
+      const remaining = prev.filter(
         (chat) => chat.id !== id
       );
 
-      setActiveChatId(
-        remaining.length > 0
-          ? remaining[0].id
-          : null
-      );
-    }
+      if (activeChatId === id) {
+        setActiveChatId(
+          remaining.length > 0
+            ? remaining[0].id
+            : null
+        );
+      }
+
+      return remaining;
+    });
   };
 
   // =========================
@@ -291,6 +316,7 @@ function App() {
         <div className="sidebar-top">
 
           <div className="brand">
+
             <div className="brand-logo">
               AI
             </div>
@@ -298,9 +324,12 @@ function App() {
             {sidebarOpen && (
               <div className="brand-text">
                 <h2>AI Teaching</h2>
-                <span>Computer Networks</span>
+                <span>
+                  Computer Networks
+                </span>
               </div>
             )}
+
           </div>
 
           <button
@@ -320,10 +349,14 @@ function App() {
           className="new-chat"
           onClick={createNewChat}
         >
-          <span className="plus">+</span>
+          <span className="plus">
+            +
+          </span>
 
           {sidebarOpen && (
-            <span>New chat</span>
+            <span>
+              New chat
+            </span>
           )}
         </button>
 
@@ -387,14 +420,19 @@ function App() {
           <div className="sidebar-footer">
 
             <div className="course-status">
+
               <div className="status-dot"></div>
 
               <div>
-                <strong>Course grounded</strong>
+                <strong>
+                  Course grounded
+                </strong>
+
                 <span>
                   Answers from course material
                 </span>
               </div>
+
             </div>
 
           </div>
@@ -456,10 +494,6 @@ function App() {
 
           {messages.length === 0 ? (
 
-            /* =========================
-               WELCOME SCREEN
-            ========================= */
-
             <div className="welcome">
 
               <div className="welcome-logo">
@@ -500,7 +534,9 @@ function App() {
                     >
                       {suggestion}
 
-                      <span>→</span>
+                      <span>
+                        →
+                      </span>
                     </button>
                   )
                 )}
@@ -510,10 +546,6 @@ function App() {
             </div>
 
           ) : (
-
-            /* =========================
-               MESSAGES
-            ========================= */
 
             <div className="messages">
 
@@ -533,14 +565,19 @@ function App() {
                     </div>
                   )}
 
-                  <div className={`message ${message.role}`}>
-                      {message.role === "assistant" ? (
-                        <ReactMarkdown>
-                          {message.text}
-                        </ReactMarkdown>
-                      ) : (
-                        message.text
-                      )}
+                  <div
+                    className={`message ${
+                      message.role
+                    }`}
+                  >
+                    {message.role ===
+                    "assistant" ? (
+                      <ReactMarkdown>
+                        {message.text}
+                      </ReactMarkdown>
+                    ) : (
+                      message.text
+                    )}
                   </div>
 
                   {message.role ===
