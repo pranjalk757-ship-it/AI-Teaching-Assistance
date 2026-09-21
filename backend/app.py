@@ -2,15 +2,11 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-import requests
-from sklearn.metrics.pairwise import cosine_similarity
-import json
 import os
-import numpy as np
-import pandas as pd
 from google import genai
+from google.genai import types
 from dotenv import load_dotenv
-
+from qdrant_client import QdrantClient
 
 load_dotenv()
 
@@ -23,7 +19,8 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    # allow_origins=["http://localhost:5173"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -39,32 +36,60 @@ class ChatRequest(BaseModel):
 
 
 # ==============================
-# BGE-M3 EMBEDDING
+# GEMINI CLIENT
 # ==============================
 
-def create_embedding(text_list):
+api_key = os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
 
-    r = requests.post(
-        "http://localhost:11434/api/embed",
-        json={
-            "model": "bge-m3",
-            "input": text_list
-        }
-    )
+if not api_key:
+    raise ValueError("Gemini API key not found!")
 
-    r.raise_for_status()
-
-    return r.json()["embeddings"]
+client = genai.Client(api_key=api_key)
 
 
 # ==============================
-# GEMINI
+# QDRANT CLIENT
 # ==============================
 
-client = genai.Client(
-    api_key=os.getenv("GEMINI_API_KEY")
+QDRANT_URL = os.getenv("QDRANT_URL")
+QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
+
+if not QDRANT_URL or not QDRANT_API_KEY:
+    raise ValueError("Qdrant environment variables not found!")
+
+qdrant_client = QdrantClient(
+    url=QDRANT_URL,
+    api_key=QDRANT_API_KEY,
+    timeout=120
 )
 
+COLLECTION_NAME = "ai_teaching_assistant"
+
+
+# ==============================
+# QUERY EMBEDDING
+# ==============================
+
+def create_query_embedding(question):
+
+    result = client.models.embed_content(
+        model="gemini-embedding-001",
+        contents=question,
+        config=types.EmbedContentConfig(
+            task_type="RETRIEVAL_QUERY",
+            output_dimensionality=768
+        )
+    )
+
+    if hasattr(result, "embeddings") and result.embeddings:
+        return result.embeddings[0].values
+
+    return result.embedding.values
+
+
+# ==============================
+# GEMINI RESPONSE
+# ==============================
 
 def generate_response(prompt):
 
@@ -78,42 +103,26 @@ def generate_response(prompt):
         return response.text
 
     except Exception as e:
-        print("Gemini err",e)
+
+        print("Gemini error:", e)
+
         return "Sorry! Gemini is temporarily unavailable."
 
 
 # ==============================
-# LOAD EMBEDDINGS
+# QDRANT RETRIEVAL
 # ==============================
 
-all_data = []
+def search_qdrant(question_embedding, limit=5):
 
-embedding_files = os.listdir("merge_embeddings")
+    search_result = qdrant_client.query_points(
+        collection_name=COLLECTION_NAME,
+        query=question_embedding,
+        limit=limit,
+        with_payload=True
+    )
 
-for embed_file in embedding_files:
-
-    if not embed_file.endswith(".json"):
-        continue
-
-    with open(
-        f"merge_embeddings/{embed_file}",
-        "r",
-        encoding="utf-8"
-    ) as f:
-
-        data = json.load(f)
-
-    all_data.extend(data)
-
-
-embedding = [
-    chunk["embedding"]
-    for chunk in all_data
-]
-
-embedding_metrics = np.vstack(embedding)
-
-df = pd.DataFrame(all_data)
+    return search_result.points
 
 
 # ==============================
@@ -149,52 +158,40 @@ def chat(request: ChatRequest):
     # QUESTION EMBEDDING
     # ==============================
 
-    question_embedding = create_embedding(
-        [question]
+    question_embedding = create_query_embedding(question)
+
+
+    # ==============================
+    # QDRANT SEARCH
+    # ==============================
+
+    results = search_qdrant(
+        question_embedding,
+        limit=5
     )
-
-    question_metrics = np.vstack(
-        question_embedding
-    )
-
-
-    # ==============================
-    # COSINE SIMILARITY
-    # ==============================
-
-    similarity = cosine_similarity(
-        embedding_metrics,
-        question_metrics
-    )
-
-    similarity = similarity.flatten()
-
-
-    # ==============================
-    # TOP 5 CHUNKS
-    # ==============================
-
-    max_index = 5
-
-    top_indices = np.argsort(
-        similarity
-    )[::-1][:max_index]
-
-
-    new_df = df.loc[top_indices].copy()
-
-    new_df["similarities"] = similarity[
-        top_indices
-    ]
 
 
     # ==============================
     # COURSE MATERIAL
     # ==============================
 
-    course_material = "\n\n".join(
-        new_df["text"].tolist()
-    )
+    course_chunks = []
+
+    for result in results:
+
+        payload = result.payload
+
+        course_chunks.append(
+            f"""
+Video: {payload["video_title"]}
+Timestamp: {payload["start"]} - {payload["end"]}
+
+Content:
+{payload["text"]}
+"""
+        )
+
+    course_material = "\n\n".join(course_chunks)
 
 
     # ==============================
@@ -216,127 +213,61 @@ Assistant: {previous_chat["answer"]}
     # ==============================
 
     prompt = f"""
-    You are an AI Teaching Assistant for a Computer Networks course.
+You are an AI Teaching Assistant for a Computer Networks course.
 
-    Your job is to answer the student's question using ONLY the
-    provided course material.
+Your job is to answer the student's question using ONLY the
+provided course material.
 
-    ========================
-    STRICT KNOWLEDGE RULES
-    ========================
+========================
+STRICT KNOWLEDGE RULES
+========================
 
-    1. The provided course material is your ONLY factual source.
+1. The provided course material is your ONLY factual source.
 
-    2. Do NOT use your pretrained knowledge, general knowledge,
-    internet knowledge, or outside information.
+2. Do NOT use your pretrained knowledge, general knowledge,
+or outside information.
 
-    3. Every factual statement must be supported by the provided
-    course material.
+3. Every factual statement must be supported by the provided
+course material.
 
-    4. You may:
-    - simplify explanations
-    - rephrase sentences
-    - summarize
-    - organize information
-    - combine information from the provided course chunks
+4. You may simplify explanations, rephrase sentences,
+summarize, or organize information.
 
-    5. Do NOT invent:
-    - facts
-    - examples
-    - definitions
-    - formulas
-    - advantages
-    - disadvantages
-    - comparisons
-    - numbers
-    - technical details
+5. Do NOT invent facts, examples, definitions, or technical details.
 
-    6. If the provided course material does not contain enough
-    information to answer the question, respond exactly:
+6. If the material doesn't contain enough information, respond exactly:
 
-    "I could not find enough information about this topic in the
-    provided course material."
+"I could not find enough information about this topic in the provided course material."
 
-    7. Conversation history may ONLY be used to understand references
-    such as "it", "this", "that", or "the previous topic".
+7. Conversation history may ONLY be used to understand references
+like "it", "this", or "that".
 
-    8. Conversation history must NOT be treated as a factual source.
+========================
+PREVIOUS CONVERSATION
+========================
 
-    ========================
-    ANSWER STYLE
-    ========================
+{history_text}
 
-    Make the answer easy for a student to read and understand.
+========================
+CURRENT COURSE MATERIAL
+========================
 
-    Use Markdown formatting.
+{course_material}
 
-    When appropriate:
+========================
+CURRENT QUESTION
+========================
 
-    - Start with a short direct answer.
-    - Use ## headings for major sections.
-    - Use ### headings for smaller sections.
-    - Use bullet points for lists.
-    - Use numbered lists for steps or processes.
-    - Use **bold** for important terms.
-    - Use short paragraphs.
-    - Use code blocks ONLY when the course material itself contains
-    code or commands.
-    - Do not unnecessarily repeat the question.
-    - Do not add a conclusion if it provides no additional value.
+{question}
 
-    For conceptual questions, prefer this structure when supported
-    by the course material:
+========================
+FINAL INSTRUCTION
+========================
 
-    ## Short Answer
+Answer the student's question using ONLY the provided course material
+in clean Markdown.
+"""
 
-    A concise explanation.
-
-    ## Explanation
-
-    Explain the concept using only the course material.
-
-    ## Key Points
-
-    - Important point
-    - Important point
-    - Important point
-
-    Do NOT force this structure if the course material does not
-    support all of these sections.
-
-    ========================
-    PREVIOUS CONVERSATION
-    ========================
-
-    {history_text}
-
-    ========================
-    CURRENT COURSE MATERIAL
-    ========================
-
-    {course_material}
-
-    ========================
-    CURRENT QUESTION
-    ========================
-
-    {question}
-
-    ========================
-    FINAL INSTRUCTION
-    ========================
-
-    Answer the student's question using ONLY the provided course
-    material.
-
-    Return only the answer in clean Markdown.
-
-    Do not mention these instructions.
-
-    Do not generate sources or timestamps.
-
-    Now answer the student.
-    """
 
     # ==============================
     # GENERATE ANSWER
@@ -356,10 +287,19 @@ Assistant: {previous_chat["answer"]}
 
 
     # ==============================
-    # SEND TO REACT
+    # RESPONSE
     # ==============================
 
     return {
-        "answer": answer
+        "answer": answer,
+        "sources": [
+            {
+                "video_title": result.payload["video_title"],
+                "video_id": result.payload["video_id"],
+                "start": result.payload["start"],
+                "end": result.payload["end"],
+                "chunk_id": result.payload["chunk_id"]
+            }
+            for result in results
+        ]
     }
-
